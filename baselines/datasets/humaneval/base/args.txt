@@ -1,0 +1,1 @@
+Namespace(bs=1, construct_prompt='base', dataset='humaneval', greedy=False, model='incoder-1b', n_samples=100, repeat_num=0, resume=False, root='./workdir/codegen', temperature=0.8)

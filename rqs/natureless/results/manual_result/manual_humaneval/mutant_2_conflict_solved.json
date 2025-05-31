@@ -1,0 +1,191 @@
+{
+   "HumanEval_54": {
+      "prompt": "def check_Equality_then_same_chars(str_0, str_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def check_Equality(str):\n            '''Write a python function to check whether the first and last characters of a given string are equal or not.'''\n\n    as input for the 1st parameter (s0), and 2nd parameter (s1) parameters of the function:\n\n        def same_chars(s0: str, s1: str) -> bool:\n            '''\n            Check if two words have the same characters.\n            >>> same_chars('eabcdzzzz', 'dddzzzzzzzddeddabc')\n            True\n            >>> same_chars('abcd', 'dddddddabc')\n            True\n            >>> same_chars('dddddddabc', 'abcd')\n            True\n            >>> same_chars('eabcd', 'dddddddabc')\n            False\n            >>> same_chars('abcd', 'dddddddabce')\n            False\n            >>> same_chars('eabcdzzzz', 'dddzzzzzzzddddabc')\n            False\n            '''\n    \"\"\"",
+      "comb_test": "['assert check_Equality(\"abcda\") == \"Equal\"', 'assert check_Equality(\"ab\") == \"Not Equal\"', 'assert check_Equality(\"mad\") == \"Not Equal\"']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_152": {
+      "prompt": "from typing import List\ndef diff_consecutivenums_then_compare(nums_0, nums_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def diff_consecutivenums(nums):\n            '''Write a function to find the difference between two consecutive numbers in a given list.'''\n\n    as input for the 1st parameter (game), and 2nd parameter (guess) parameters of the function:\n\n        from typing import List\n\n        def compare(game: List[int], guess: List[int]) -> List[int]:\n            '''I think we all remember that feeling when the result of some long-awaited\n            event is finally known. The feelings and thoughts you have at that moment are\n            definitely worth noting down and comparing.\n            Your task is to determine if a person correctly guessed the results of a number of matches.\n            You are given two arrays of scores and guesses of equal length, where each index shows a match. \n            Return an array of the same length denoting how far off each guess was. If they have guessed correctly,\n            the value is 0, and if not, the value is the absolute difference between the guess and the score.\n            \n            \n            example:\n\n            >>> compare([1, 2, 3, 4, 5, 1], [1, 2, 3, 4, 2, -2])\n            [0, 0, 0, 0, 3, 3]\n            >>> compare([0, 5, 0, 0, 0, 4], [4, 1, 1, 0, 0, -2])\n            [4, 4, 1, 0, 0, 6]\n            '''\n    \"\"\"",
+      "comb_test": "['assert diff_consecutivenums([1, 1, 3, 4, 4, 5, 6, 7])==[0, 2, 1, 0, 1, 1, 1]', 'assert diff_consecutivenums([4, 5, 8, 9, 6, 10])==[1, 3, 1, -3, 4]', 'assert diff_consecutivenums([0, 1, 2, 3, 4, 4, 4, 4, 5, 7])==[1, 1, 1, 1, 0, 0, 0, 1, 2]']",
+      "label1": 0.5,
+      "label2": 1,
+      "final_result": 0.5
+   },
+   "HumanEval_71": {
+      "prompt": "def find_angle_then_triangle_area(a_0, b_0, a_1, b_1, a_2, b_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        def find_angle(a, b):\n            '''Write a function to find the third angle of a triangle using two angles.'''\n\n    as input for the 1st parameter (a), 2nd parameter (b), and 3rd parameter (c) parameters of the function:\n\n        def triangle_area(a: int, b: int, c: int) -> float:\n            '''\n            Given the lengths of the three sides of a triangle. Return the area of\n            the triangle rounded to 2 decimal points if the three sides form a valid triangle. \n            Otherwise return -1\n            Three sides make a valid triangle when the sum of any two sides is greater \n            than the third side.\n            Example:\n            >>> triangle_area(3, 4, 5)\n            6.0\n            >>> triangle_area(1, 2, 10)\n            -1\n            '''\n    \"\"\"",
+      "comb_test": "['assert find_angle(47,89)==44', 'assert find_angle(45,95)==40', 'assert find_angle(50,40)==90']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_127": {
+      "prompt": "from typing import Tuple\ndef answer_then_intersection(L_0, R_0, L_1, R_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def answer(L, R):\n            '''Write a python function to find two distinct numbers such that their lcm lies within the given range.'''\n\n    as input for the 1st parameter (interval1), and 2nd parameter (interval2) parameters of the function:\n\n        from typing import Tuple\n\n        def intersection(interval1: Tuple[int, int], interval2: Tuple[int, int]) -> str:\n            '''You are given two intervals,\n            where each interval is a pair of integers. For example, interval = (start, end) = (1, 2).\n            The given intervals are closed which means that the interval (start, end)\n            includes both start and end.\n            For each given interval, it is assumed that its start is less or equal its end.\n            Your task is to determine whether the length of intersection of these two \n            intervals is a prime number.\n            Example, the intersection of the intervals (1, 3), (2, 4) is (2, 3)\n            which its length is 1, which not a prime number.\n            If the length of the intersection is a prime number, return \"YES\",\n            otherwise, return \"NO\".\n            If the two intervals don't intersect, return \"NO\".\n\n\n            [input/output] samples:\n            >>> intersection((1, 2), (2, 3))\n            'NO'\n            >>> intersection((-1, 1), (0, 4))\n            'NO'\n            >>> intersection((-3, -1), (-5, 5))\n            'YES'\n            '''\n    \"\"\"",
+      "comb_test": "['assert answer(3,8) == (3,6)', 'assert answer(2,6) == (2,4)', 'assert answer(1,3) == (1,2)']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_159": {
+      "prompt": "from typing import List\ndef min_jumps_then_eat(arr_0, n_0, arr_1, n_1, arr_2, n_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        def min_jumps(arr, n):\n            '''## write a function to find the minimum number of jumps to reach the end of the array for the given array of integers where each element represents the max number of steps that can be made forward from that element. > indented block > indented block'''\n\n    as input for the 1st parameter (number), 2nd parameter (need), and 3rd parameter (remaining) parameters of the function:\n\n        from typing import List\n\n        def eat(number: int, need: int, remaining: int) -> List[int]:\n            '''\n            You're a hungry rabbit, and you already have eaten a certain number of carrots,\n            but now you need to eat more carrots to complete the day's meals.\n            you should return an array of [ total number of eaten carrots after your meals,\n                                            the number of carrots left after your meals ]\n            if there are not enough remaining carrots, you will eat all remaining carrots, but will still be hungry.\n            \n            Example:\n            >>> eat(5, 6, 10)\n            [11, 4]\n            >>> eat(4, 8, 9)\n            [12, 1]\n            >>> eat(1, 10, 10)\n            [11, 0]\n            >>> eat(2, 11, 5)\n            [7, 0]\n            \n            Variables:\n            @number : integer\n                the number of carrots that you have eaten.\n            @need : integer\n                the number of carrots that you need to eat.\n            @remaining : integer\n                the number of remaining carrots thet exist in stock\n            \n            Constrain:\n            * 0 <= number <= 1000\n            * 0 <= need <= 1000\n            * 0 <= remaining <= 1000\n\n            Have fun :)\n            '''\n    \"\"\"",
+      "comb_test": "['assert min_jumps([1, 3, 6, 1, 0, 9], 6) == 3', 'assert min_jumps([1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9], 11) == 3', 'assert min_jumps([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 11) == 10']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_74": {
+      "prompt": "from typing import List\ndef anagram_lambda_then_total_match(texts_0, str_0, texts_1, str_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        from collections import Counter\n        def anagram_lambda(texts, str):\n            '''Write a function to find all anagrams of a string in a given list of strings using lambda function.'''\n\n    as input for the 1st parameter (lst1), and 2nd parameter (lst2) parameters of the function:\n\n        from typing import List\n\n        def total_match(lst1: List[str], lst2: List[str]) -> List[str]:\n            '''\n            Write a function that accepts two lists of strings and returns the list that has \n            total number of chars in the all strings of the list less than the other list.\n\n            if the two lists have the same number of chars, return the first list.\n\n            Examples\n            >>> total_match([], [])\n            []\n            >>> total_match(['hi', 'admin'], ['hI', 'Hi'])\n            ['hI', 'Hi']\n            >>> total_match(['hi', 'admin'], ['hi', 'hi', 'admin', 'project'])\n            ['hi', 'admin']\n            >>> total_match(['hi', 'admin'], ['hI', 'hi', 'hi'])\n            ['hI', 'hi', 'hi']\n            >>> total_match(['4'], ['1', '2', '3', '4', '5'])\n            ['4']\n            '''\n    \"\"\"",
+      "comb_test": "['assert anagram_lambda([\"bcda\", \"abce\", \"cbda\", \"cbea\", \"adcb\"],\"abcd\")==[\\'bcda\\', \\'cbda\\', \\'adcb\\']', 'assert anagram_lambda([\"recitals\",\" python\"], \"articles\" )==[\"recitals\"]', 'assert anagram_lambda([\" keep\",\" abcdef\",\" xyz\"],\" peek\")==[\" keep\"]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_58": {
+      "prompt": "from typing import List\ndef combine_lists_then_common(num1_0, num2_0, num1_1, num2_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        from heapq import merge\n        def combine_lists(num1, num2):\n            '''Write a function to combine two given sorted lists using heapq module.'''\n\n    as input for the 1st parameter (l1), and 2nd parameter (l2) parameters of the function:\n\n        from typing import List\n\n        def common(l1: List[int], l2: List[int]) -> List[int]:\n            '''Return sorted unique common elements for two lists.\n            >>> common([1, 4, 3, 34, 653, 2, 5], [5, 7, 1, 5, 9, 653, 121])\n            [1, 5, 653]\n            >>> common([5, 3, 2, 8], [3, 2])\n            [2, 3]\n\n            '''\n    \"\"\"",
+      "comb_test": "['assert combine_lists([1, 3, 5, 7, 9, 11],[0, 2, 4, 6, 8, 10])==[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]', 'assert combine_lists([1, 3, 5, 6, 8, 9], [2, 5, 7, 11])==[1,2,3,5,5,6,7,8,9,11]', 'assert combine_lists([1,3,7],[2,4,6])==[1,2,3,4,6,7]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_53": {
+      "prompt": "def count_digits_then_add(num1_0, num2_0, num1_1, num2_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def count_digits(num1, num2):\n            '''Write a function to add two numbers and print number of digits of sum.'''\n\n    as input for the 1st parameter (x), and 2nd parameter (y) parameters of the function:\n\n        def add(x: int, y: int) -> int:\n            '''Add two numbers x and y\n            >>> add(2, 3)\n            5\n            >>> add(5, 7)\n            12\n            '''\n    \"\"\"",
+      "comb_test": "['assert count_digits(9875,10)==(4)', 'assert count_digits(98759853034,100)==(11)', 'assert count_digits(1234567,500)==(7)']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_163": {
+      "prompt": "from typing import List\ndef gcd_then_generate_integers(x_0, y_0, x_1, y_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def gcd(x, y):\n            '''Write a python function to find gcd of two positive integers.'''\n\n    as input for the 1st parameter (a), and 2nd parameter (b) parameters of the function:\n\n        from typing import List\n\n        def generate_integers(a: int, b: int) -> List[int]:\n            '''\n            Given two positive integers a and b, return the even digits between a\n            and b, in ascending order.\n\n            For example:\n            >>> generate_integers(2, 8)\n            [2, 4, 6, 8]\n            >>> generate_integers(8, 2)\n            [2, 4, 6, 8]\n            >>> generate_integers(10, 14)\n            []\n            '''\n    \"\"\"",
+      "comb_test": "['assert gcd(12, 17) == 1', 'assert gcd(4,6) == 2', 'assert gcd(2,9) == 1']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_157": {
+      "prompt": "def find_angle_then_right_angle_triangle(a_0, b_0, a_1, b_1, a_2, b_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        def find_angle(a, b):\n            '''Write a function to find the third angle of a triangle using two angles.'''\n\n    as input for the 1st parameter (a), 2nd parameter (b), and 3rd parameter (c) parameters of the function:\n\n        def right_angle_triangle(a: int, b: int, c: int) -> bool:\n            '''\n            Given the lengths of the three sides of a triangle. Return True if the three\n            sides form a right-angled triangle, False otherwise.\n            A right-angled triangle is a triangle in which one angle is right angle or \n            90 degree.\n            Example:\n            >>> right_angle_triangle(3, 4, 5)\n            True\n            >>> right_angle_triangle(1, 2, 3)\n            False\n            '''\n    \"\"\"",
+      "comb_test": "['assert find_angle(47,89)==44', 'assert find_angle(45,95)==40', 'assert find_angle(50,40)==90']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_11": {
+      "prompt": "def binary_to_integer_then_string_xor(test_tup_0, test_tup_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def binary_to_integer(test_tup):\n            '''Write a function to convert the given binary tuple to integer.'''\n\n    as input for the 1st parameter (a), and 2nd parameter (b) parameters of the function:\n\n        def string_xor(a: str, b: str) -> str:\n            ''' Input are two strings a and b consisting only of 1s and 0s.\n            Perform binary XOR on these inputs and return result also as a string.\n            >>> string_xor('010', '110')\n            '100'\n            '''\n    \"\"\"",
+      "comb_test": "[\"assert binary_to_integer((1, 1, 0, 1, 0, 0, 1)) == '105'\", \"assert binary_to_integer((0, 1, 1, 0, 0, 1, 0, 1)) == '101'\", \"assert binary_to_integer((1, 1, 0, 1, 0, 1)) == '53'\"]",
+      "label1": 0,
+      "label2": 0,
+      "final_result": 0
+   },
+   "HumanEval_44": {
+      "prompt": "def decimal_To_Binary_then_change_base(N_0, N_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def decimal_To_Binary(N):\n            '''Write a python function to convert a decimal number to binary number.'''\n\n    as input for the 1st parameter (x), and 2nd parameter (base) parameters of the function:\n\n        def change_base(x: int, base: int) -> str:\n            '''Change numerical base of input number x to base.\n            return string representation after the conversion.\n            base numbers are less than 10.\n            >>> change_base(8, 3)\n            '22'\n            >>> change_base(8, 2)\n            '1000'\n            >>> change_base(7, 2)\n            '111'\n            '''\n    \"\"\"",
+      "comb_test": "['assert decimal_To_Binary(10) == 1010', 'assert decimal_To_Binary(1) == 1', 'assert decimal_To_Binary(20) == 10100']",
+      "label1": 1,
+      "label2": 0,
+      "final_result": 0
+   },
+   "HumanEval_97": {
+      "prompt": "def sum_nums_then_multiply(x_0, y_0, m_0, n_0, x_1, y_1, m_1, n_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def sum_nums(x, y, m, n):\n            '''Write a function to add two integers. however, if the sum is between the given range it will return 20.'''\n\n    as input for the 1st parameter (a), and 2nd parameter (b) parameters of the function:\n\n        def multiply(a: int, b: int) -> int:\n            '''Complete the function that takes two integers and returns \n            the product of their unit digits.\n            Assume the input is always valid.\n            Examples:\n            >>> multiply(148, 412)\n            16\n            >>> multiply(19, 28)\n            72\n            >>> multiply(2020, 1851)\n            0\n            >>> multiply(14, -15)\n            20\n            '''\n    \"\"\"",
+      "comb_test": "['assert sum_nums(2,10,11,20)==20', 'assert sum_nums(15,17,1,10)==32', 'assert sum_nums(10,15,5,30)==20']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_154": {
+      "prompt": "def check_substring_then_cycpattern_check(string_0, sample_0, string_1, sample_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        import re\n        def check_substring(string, sample):\n            '''Write a function to check if the given string starts with a substring using regex.'''\n\n    as input for the 1st parameter (a), and 2nd parameter (b) parameters of the function:\n\n        def cycpattern_check(a: str, b: str) -> bool:\n            '''You are given 2 words. You need to return True if the second word or any of its rotations is a substring in the first word\n            >>> cycpattern_check('abcd', 'abd')\n            False\n            >>> cycpattern_check('hello', 'ell')\n            True\n            >>> cycpattern_check('whassup', 'psus')\n            False\n            >>> cycpattern_check('abab', 'baa')\n            True\n            >>> cycpattern_check('efef', 'eeff')\n            False\n            >>> cycpattern_check('himenss', 'simen')\n            True\n\n            '''\n    \"\"\"",
+      "comb_test": "['assert check_substring(\"dreams for dreams makes life fun\", \"makes\") == \\'string doesnt start with the given substring\\'', 'assert check_substring(\"Hi there how are you Hi alex\", \"Hi\") == \\'string starts with the given substring\\'', 'assert check_substring(\"Its been a long day\", \"been\") == \\'string doesnt start with the given substring\\'']",
+      "label1": 0,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_45": {
+      "prompt": "def area_trapezium_then_triangle_area(base1_0, base2_0, height_0, base1_1, base2_1, height_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def area_trapezium(base1, base2, height):\n            '''Write a function to find the area of a trapezium.'''\n\n    as input for the 1st parameter (a), and 2nd parameter (h) parameters of the function:\n\n        def triangle_area(a: int, h: int) -> float:\n            '''Given length of a side and high return area for a triangle.\n            >>> triangle_area(5, 3)\n            7.5\n            '''\n    \"\"\"",
+      "comb_test": "['assert area_trapezium(6,9,4)==30', 'assert area_trapezium(10,20,30)==450', 'assert area_trapezium(15,25,35)==700']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_112": {
+      "prompt": "from typing import Tuple\ndef rearange_string_then_reverse_delete(S_0, S_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        import heapq\n        from collections import Counter\n        def rearange_string(S):\n            '''Write a function to check if the letters of a given string can be rearranged so that two characters that are adjacent to each other are different.'''\n\n    as input for the 1st parameter (s), and 2nd parameter (c) parameters of the function:\n\n        from typing import Tuple\n\n        def reverse_delete(s: str, c: str) -> Tuple[str, bool]:\n            '''Task\n            We are given two strings s and c, you have to deleted all the characters in s that are equal to any character in c\n            then check if the result string is palindrome.\n            A string is called palindrome if it reads the same backward as forward.\n            You should return a tuple containing the result string and True/False for the check.\n            Example\n            >>> reverse_delete('abcde', 'ae')\n            ('bcd', False)\n            >>> reverse_delete('abcdef', 'b')\n            ('acdef', False)\n            >>> reverse_delete('abcdedcba', 'ab')\n            ('cdedc', True)\n            '''\n    \"\"\"",
+      "comb_test": "['assert rearange_string(\"aab\")==(\\'aba\\')', 'assert rearange_string(\"aabb\")==(\\'abab\\')', 'assert rearange_string(\"abccdd\")==(\\'cdabcd\\')']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_92": {
+      "prompt": "def negative_count_then_any_int(nums_0, nums_1, nums_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        from array import array\n        def negative_count(nums):\n            '''Write a function to find the ration of negative numbers in an array of integers.'''\n\n    as input for the 1st parameter (x), 2nd parameter (y), and 3rd parameter (z) parameters of the function:\n\n        def any_int(x: float, y: float, z: float) -> bool:\n            '''\n            Create a function that takes 3 numbers.\n            Returns true if one of the numbers is equal to the sum of the other two, and all numbers are integers.\n            Returns false in any other cases.\n            \n            Examples\n            >>> any_int(5, 2, 7)\n            True\n            \n            >>> any_int(3, 2, 2)\n            False\n\n            >>> any_int(3, -2, 1)\n            True\n            \n            >>> any_int(3.6, -2.2, 2)\n            False\n          \n\n            \n            '''\n    \"\"\"",
+      "comb_test": "['assert negative_count([0, 1, 2, -1, -5, 6, 0, -3, -2, 3, 4, 6, 8])==0.31', 'assert negative_count([2, 1, 2, -1, -5, 6, 4, -3, -2, 3, 4, 6, 8])==0.31', 'assert negative_count([2, 4, -6, -9, 11, -12, 14, -5, 17])==0.44']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_150": {
+      "prompt": "def sum_Of_Primes_then_x_or_y(n_0, n_1, n_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        def sum_Of_Primes(n):\n            '''Write a python function to find sum of prime numbers between 1 to n.'''\n\n    as input for the 1st parameter (n), 2nd parameter (x), and 3rd parameter (y) parameters of the function:\n\n        def x_or_y(n: int, x: int, y: int) -> int:\n            '''A simple program which should return the value of x if n is \n            a prime number and should return the value of y otherwise.\n\n            Examples:\n            >>> x_or_y(7, 34, 12)\n            34\n            >>> x_or_y(15, 8, 5)\n            5\n            \n            '''\n    \"\"\"",
+      "comb_test": "['assert sum_Of_Primes(10) == 17', 'assert sum_Of_Primes(20) == 77', 'assert sum_Of_Primes(5) == 10']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_13": {
+      "prompt": "def recur_gcd_then_greatest_common_divisor(a_0, b_0, a_1, b_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def recur_gcd(a, b):\n            '''Write a function to find the greatest common divisor (gcd) of two integers by using recursion.'''\n\n    as input for the 1st parameter (a), and 2nd parameter (b) parameters of the function:\n\n        def greatest_common_divisor(a: int, b: int) -> int:\n            ''' Return a greatest common divisor of two integers a and b\n            >>> greatest_common_divisor(3, 5)\n            1\n            >>> greatest_common_divisor(25, 15)\n            5\n            '''\n    \"\"\"",
+      "comb_test": "['assert recur_gcd(12,14) == 2', 'assert recur_gcd(13,17) == 1', 'assert recur_gcd(9, 3) == 3']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_76": {
+      "prompt": "def fourth_Power_Sum_then_is_simple_power(n_0, n_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        import math\n        def fourth_Power_Sum(n):\n            '''Write a python function to find the sum of fourth power of n natural numbers.'''\n\n    as input for the 1st parameter (x), and 2nd parameter (n) parameters of the function:\n\n        def is_simple_power(x: int, n: int) -> bool:\n            '''Your task is to write a function that returns true if a number x is a simple\n            power of n and false in other cases.\n            x is a simple power of n if n**int=x\n            For example:\n            >>> is_simple_power(1, 4)\n            True\n            >>> is_simple_power(2, 2)\n            True\n            >>> is_simple_power(8, 2)\n            True\n            >>> is_simple_power(3, 2)\n            False\n            >>> is_simple_power(3, 1)\n            False\n            >>> is_simple_power(5, 3)\n            False\n            '''\n    \"\"\"",
+      "comb_test": "['assert fourth_Power_Sum(2) == 17', 'assert fourth_Power_Sum(4) == 354', 'assert fourth_Power_Sum(6) == 2275']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_49": {
+      "prompt": "def nCr_mod_p_then_modp(n_0, r_0, p_0, n_1, r_1, p_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def nCr_mod_p(n, r, p):\n            '''Write a function to compute the value of ncr mod p.'''\n\n    as input for the 1st parameter (n), and 2nd parameter (p) parameters of the function:\n\n        def modp(n: int, p: int) -> int:\n            '''Return 2^n modulo p (be aware of numerics).\n            >>> modp(3, 5)\n            3\n            >>> modp(1101, 101)\n            2\n            >>> modp(0, 101)\n            1\n            >>> modp(3, 11)\n            8\n            >>> modp(100, 101)\n            1\n            '''\n    \"\"\"",
+      "comb_test": "['assert nCr_mod_p(10, 2, 13) == 6', 'assert nCr_mod_p(11, 3, 14) == 11', 'assert nCr_mod_p(18, 14, 19) == 1']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_102": {
+      "prompt": "def max_of_two_then_choose_num(x_0, y_0, x_1, y_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def max_of_two(x, y):\n            '''Write a function to find maximum of two numbers.'''\n\n    as input for the 1st parameter (x), and 2nd parameter (y) parameters of the function:\n\n        def choose_num(x: int, y: int) -> int:\n            '''This function takes two positive numbers x and y and returns the\n            biggest even integer number that is in the range [x, y] inclusive. If \n            there's no such number, then the function should return -1.\n\n            For example:\n            >>> choose_num(12, 15)\n            14\n            >>> choose_num(13, 12)\n            -1\n            '''\n    \"\"\"",
+      "comb_test": "['assert max_of_two(10,20)==20', 'assert max_of_two(19,15)==19', 'assert max_of_two(-10,-20)==-10']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_103": {
+      "prompt": "from typing import Union\ndef average_Even_then_rounded_avg(n_0, n_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def average_Even(n):\n            '''Write a python function to find the average of even numbers till a given even number.'''\n\n    as input for the 1st parameter (n), and 2nd parameter (m) parameters of the function:\n\n        from typing import Union\n\n        def rounded_avg(n: int, m: int) -> Union[str, int]:\n            '''You are given two positive integers n and m, and your task is to compute the\n            average of the integers from n through m (including n and m). \n            Round the answer to the nearest integer and convert that to binary.\n            If n is greater than m, return -1.\n            Example:\n            >>> rounded_avg(1, 5)\n            '0b11'\n            >>> rounded_avg(7, 5)\n            -1\n            >>> rounded_avg(10, 20)\n            '0b1111'\n            >>> rounded_avg(20, 33)\n            '0b11010'\n            '''\n    \"\"\"",
+      "comb_test": "['assert average_Even(2) == 2', 'assert average_Even(4) == 3', 'assert average_Even(100) == 51']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_18": {
+      "prompt": "def first_Repeated_Char_then_how_many_times(str_0, str_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def first_Repeated_Char(str):\n            '''Write a python function to find the first repeated character in a given string.'''\n\n    as input for the 1st parameter (string), and 2nd parameter (substring) parameters of the function:\n\n        def how_many_times(string: str, substring: str) -> int:\n            ''' Find how many times a given substring can be found in the original string. Count overlaping cases.\n            >>> how_many_times('', 'a')\n            0\n            >>> how_many_times('aaa', 'a')\n            3\n            >>> how_many_times('aaaa', 'aa')\n            3\n            '''\n    \"\"\"",
+      "comb_test": "['assert first_Repeated_Char(\"Google\") == \"o\"', 'assert first_Repeated_Char(\"data\") == \"a\"', 'assert first_Repeated_Char(\"python\") == \\'\\\\0\\'']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_110": {
+      "prompt": "from typing import List\ndef exchange_elements_then_exchange(lst_0, lst_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        from itertools import zip_longest, chain, tee\n        def exchange_elements(lst):\n            '''Write a function to exchange the position of every n-th value with (n+1)th value and (n+1)th value with n-th value in a given list.'''\n\n    as input for the 1st parameter (lst1), and 2nd parameter (lst2) parameters of the function:\n\n        from typing import List\n\n        def exchange(lst1: List[int], lst2: List[int]) -> str:\n            '''In this problem, you will implement a function that takes two lists of numbers,\n            and determines whether it is possible to perform an exchange of elements\n            between them to make lst1 a list of only even numbers.\n            There is no limit on the number of exchanged elements between lst1 and lst2.\n            If it is possible to exchange elements between the lst1 and lst2 to make\n            all the elements of lst1 to be even, return \"YES\".\n            Otherwise, return \"NO\".\n            For example:\n            >>> exchange([1, 2, 3, 4], [1, 2, 3, 4])\n            'YES'\n            >>> exchange([1, 2, 3, 4], [1, 5, 3, 4])\n            'NO'\n            It is assumed that the input lists will be non-empty.\n            '''\n    \"\"\"",
+      "comb_test": "['assert exchange_elements([0,1,2,3,4,5])==[1, 0, 3, 2, 5, 4] ', 'assert exchange_elements([5,6,7,8,9,10])==[6,5,8,7,10,9] ', 'assert exchange_elements([25,35,45,55,75,95])==[35,25,55,45,95,75] ']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_65": {
+      "prompt": "def get_First_Set_Bit_Pos_then_circular_shift(n_0, n_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        import math\n        def get_First_Set_Bit_Pos(n):\n            '''Write a python function to get the position of rightmost set bit.'''\n\n    as input for the 1st parameter (x), and 2nd parameter (shift) parameters of the function:\n\n        def circular_shift(x: int, shift: int) -> str:\n            '''Circular shift the digits of the integer x, shift the digits right by shift\n            and return the result as a string.\n            If shift > number of digits, return digits reversed.\n            >>> circular_shift(12, 1)\n            '21'\n            >>> circular_shift(12, 2)\n            '12'\n            '''\n    \"\"\"",
+      "comb_test": "['assert get_First_Set_Bit_Pos(12) == 3', 'assert get_First_Set_Bit_Pos(18) == 2', 'assert get_First_Set_Bit_Pos(16) == 5']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "HumanEval_137": {
+      "prompt": "from typing import Union\ndef binary_to_integer_then_compare_one(test_tup_0, test_tup_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def binary_to_integer(test_tup):\n            '''Write a function to convert the given binary tuple to integer.'''\n\n    as input for the 1st parameter (a), and 2nd parameter (b) parameters of the function:\n\n        from typing import Union\n\n        def compare_one(a: Union[int, float, str], b: Union[int, float, str]) -> Union[int, float, str, None]:\n            '''\n            Create a function that takes integers, floats, or strings representing\n            real numbers, and returns the larger variable in its given variable type.\n            Return None if the values are equal.\n            Note: If a real number is represented as a string, the floating point might be . or ,\n\n            >>> compare_one(1, 2.5)\n            2.5\n            >>> compare_one(1, '2,3')\n            '2,3'\n            >>> compare_one('5,1', '6')\n            '6'\n            >>> compare_one('1', 1)\n            None\n            '''\n    \"\"\"",
+      "comb_test": "[\"assert binary_to_integer((1, 1, 0, 1, 0, 0, 1)) == '105'\", \"assert binary_to_integer((0, 1, 1, 0, 0, 1, 0, 1)) == '101'\", \"assert binary_to_integer((1, 1, 0, 1, 0, 1)) == '53'\"]",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   }
+}

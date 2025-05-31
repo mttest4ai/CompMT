@@ -1,0 +1,583 @@
+{
+   "mbpp_607": {
+      "prompt": "from typing import Tuple\ndef check_substring_then_find_literals(string_0, sample_0, string_1, sample_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        import re\n        def check_substring(string, sample):\n            '''Write a function to check if the given string starts with a substring using regex.'''\n\n    as input for the 1st parameter (text), and 2nd parameter (pattern) parameters of the function:\n\n        from typing import Tuple\n\n        def find_literals(text: str, pattern: str) -> Tuple[str, int, int]:\n            '''\n        \tWrite a function to search a string for a regex pattern. The function should return the matching subtring, a start index and an end index.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert check_substring(\"dreams for dreams makes life fun\", \"makes\") == \\'string doesnt start with the given substring\\'', 'assert check_substring(\"Hi there how are you Hi alex\", \"Hi\") == \\'string starts with the given substring\\'', 'assert check_substring(\"Its been a long day\", \"been\") == \\'string doesnt start with the given substring\\'']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_474": {
+      "prompt": "def remove_Char_then_replace_char(s_0, c_0, s_1, c_1, s_2, c_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        def remove_Char(s, c):\n            '''Write a python function to remove all occurrences of a character in a given string.'''\n\n    as input for the 1st parameter (str1), 2nd parameter (ch), and 3rd parameter (newch) parameters of the function:\n\n        def replace_char(str1: str, ch: str, newch: str) -> str:\n            '''\n        \tWrite a function to replace characters in a string.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert remove_Char(\"aba\",\\'a\\') == \"b\"', 'assert remove_Char(\"toggle\",\\'g\\') == \"tole\"', 'assert remove_Char(\"aabbc\",\\'b\\') == \"aac\"']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_6": {
+      "prompt": "def set_Bit_Number_then_differ_At_One_Bit_Pos(n_0, n_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def set_Bit_Number(n):\n            '''Write a python function to find the most significant bit number which is also a set bit.'''\n\n    as input for the 1st parameter (a), and 2nd parameter (b) parameters of the function:\n\n        def differ_At_One_Bit_Pos(a: int, b: int) -> bool:\n            '''\n        \tWrite a python function to check whether the two numbers differ at one bit position only or not.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert set_Bit_Number(6) == 4', 'assert set_Bit_Number(10) == 8', 'assert set_Bit_Number(18) == 16']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_809": {
+      "prompt": "from typing import Tuple\ndef extract_min_max_then_check_smaller(test_tup_0, K_0, test_tup_1, K_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def extract_min_max(test_tup, K):\n            '''Write a function to extract maximum and minimum k elements in the given tuple.'''\n\n    as input for the 1st parameter (test_tup1), and 2nd parameter (test_tup2) parameters of the function:\n\n        from typing import Tuple\n\n        def check_smaller(test_tup1: Tuple[int, int, int], test_tup2: Tuple[int, int, int]) -> bool:\n            '''\n        \tWrite a function to check if each element of second tuple is smaller than its corresponding element in the first tuple.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert extract_min_max((5, 20, 3, 7, 6, 8), 2) == (3, 5, 8, 20)', 'assert extract_min_max((4, 5, 6, 1, 2, 7), 3) == (1, 2, 4, 5, 6, 7)', 'assert extract_min_max((2, 3, 4, 8, 9, 11, 7), 4) == (2, 3, 4, 7, 8, 9, 11)']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_799": {
+      "prompt": "def odd_bit_set_number_then_left_rotate(n_0, n_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def odd_bit_set_number(n):\n            '''Write a python function to set all odd bits of a given number.'''\n\n    as input for the 1st parameter (n), and 2nd parameter (d) parameters of the function:\n\n        def left_rotate(n: int, d: int) -> int:\n            '''\n        \tWrite a function to that rotate left bits by d bits a given number. We assume that the number is 32 bit.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert odd_bit_set_number(10) == 15', 'assert odd_bit_set_number(20) == 21', 'assert odd_bit_set_number(30) == 31']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_282": {
+      "prompt": "from typing import List\ndef diff_consecutivenums_then_sub_list(nums_0, nums_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def diff_consecutivenums(nums):\n            '''Write a function to find the difference between two consecutive numbers in a given list.'''\n\n    as input for the 1st parameter (nums1), and 2nd parameter (nums2) parameters of the function:\n\n        from typing import List\n\n        def sub_list(nums1: List[int], nums2: List[int]) -> List[int]:\n            '''\n        \tWrite a function to subtract two lists element-wise.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert diff_consecutivenums([1, 1, 3, 4, 4, 5, 6, 7])==[0, 2, 1, 0, 1, 1, 1]', 'assert diff_consecutivenums([4, 5, 8, 9, 6, 10])==[1, 3, 1, -3, 4]', 'assert diff_consecutivenums([0, 1, 2, 3, 4, 4, 4, 4, 5, 7])==[1, 1, 1, 1, 0, 0, 0, 1, 2]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_239": {
+      "prompt": "def find_longest_conseq_subseq_then_get_total_number_of_sequences(arr_0, n_0, arr_1, n_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def find_longest_conseq_subseq(arr, n):\n            '''Write a function to find the length of the longest sub-sequence such that elements in the subsequences are consecutive integers.'''\n\n    as input for the 1st parameter (m), and 2nd parameter (n) parameters of the function:\n\n        def get_total_number_of_sequences(m: int, n: int) -> int:\n            '''\n        \tWrite a function that takes in positive integers m and n and finds the number of possible sequences of length n, such that each element is a positive integer and is greater than or equal to twice the previous element but less than or equal to m.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert find_longest_conseq_subseq([1, 2, 2, 3], 4) == 3', 'assert find_longest_conseq_subseq([1, 9, 3, 10, 4, 20, 2], 7) == 4', 'assert find_longest_conseq_subseq([36, 41, 56, 35, 44, 33, 34, 92, 43, 32, 42], 11) == 5']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_69": {
+      "prompt": "from typing import List\ndef nth_items_then_is_sublist(list_0, n_0, list_1, n_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def nth_items(list, n):\n            '''Write a function to select the nth items of a list.'''\n\n    as input for the 1st parameter (l), and 2nd parameter (s) parameters of the function:\n\n        from typing import List\n\n        def is_sublist(l: List[int], s: List[int]) -> bool:\n            '''\n        \tWrite a function to check whether a list contains the given sublist or not.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert nth_items([1, 2, 3, 4, 5, 6, 7, 8, 9],2)==[1, 3, 5, 7, 9] ', 'assert nth_items([10,15,19,17,16,18],3)==[10,17] ', 'assert nth_items([14,16,19,15,17],4)==[14,17]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_397": {
+      "prompt": "def max_of_three_then_median_numbers(num1_0, num2_0, num3_0, num1_1, num2_1, num3_1, num1_2, num2_2, num3_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        def max_of_three(num1, num2, num3):\n            '''Write a function to find maximum of three numbers.'''\n\n    as input for the 1st parameter (a), 2nd parameter (b), and 3rd parameter (c) parameters of the function:\n\n        def median_numbers(a: int, b: int, c: int) -> float:\n            '''\n        \tWrite a function to find the median of three numbers.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert max_of_three(10,20,30)==30', 'assert max_of_three(55,47,39)==55', 'assert max_of_three(10,49,30)==49']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_408": {
+      "prompt": "from typing import List\ndef heap_queue_smallest_then_k_smallest_pairs(nums_0, n_0, nums_1, n_1, k):\n    \"\"\"Create a function that takes the output of the function:\n\n        import heapq as hq\n        def heap_queue_smallest(nums, n):\n            '''Write a function to find the smallest integers from a given list of numbers using heap queue algorithm.'''\n\n    as input for the 1st parameter (nums1), and 2nd parameter (nums2) parameters of the function:\n\n        from typing import List\n\n        def k_smallest_pairs(nums1: List[int], nums2: List[int], k: int) -> List[List[int]]:\n            '''\n        \tWrite a function to find k number of smallest pairs which consist of one element from the first array and one element from the second array.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert heap_queue_smallest( [25, 35, 22, 85, 14, 65, 75, 25, 58],3)==[14, 22, 25] ', 'assert heap_queue_smallest( [25, 35, 22, 85, 14, 65, 75, 25, 58],2)==[14, 22]', 'assert heap_queue_smallest( [25, 35, 22, 85, 14, 65, 75, 22, 58],5)==[14, 22, 22, 25, 35]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_769": {
+      "prompt": "from typing import List\ndef diff_consecutivenums_then_Diff(nums_0, nums_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def diff_consecutivenums(nums):\n            '''Write a function to find the difference between two consecutive numbers in a given list.'''\n\n    as input for the 1st parameter (li1), and 2nd parameter (li2) parameters of the function:\n\n        from typing import List\n\n        def Diff(li1: List[int], li2: List[int]) -> List[int]:\n            '''\n        \tWrite a python function to get the difference between two lists.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert diff_consecutivenums([1, 1, 3, 4, 4, 5, 6, 7])==[0, 2, 1, 0, 1, 1, 1]', 'assert diff_consecutivenums([4, 5, 8, 9, 6, 10])==[1, 3, 1, -3, 4]', 'assert diff_consecutivenums([0, 1, 2, 3, 4, 4, 4, 4, 5, 7])==[1, 1, 1, 1, 0, 0, 0, 1, 2]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_18": {
+      "prompt": "def remove_Char_then_remove_dirty_chars(s_0, c_0, s_1, c_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def remove_Char(s, c):\n            '''Write a python function to remove all occurrences of a character in a given string.'''\n\n    as input for the 1st parameter (string), and 2nd parameter (second_string) parameters of the function:\n\n        def remove_dirty_chars(string: str, second_string: str) -> str:\n            '''\n        \tWrite a function to remove characters from the first string which are present in the second string.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert remove_Char(\"aba\",\\'a\\') == \"b\"', 'assert remove_Char(\"toggle\",\\'g\\') == \"tole\"', 'assert remove_Char(\"aabbc\",\\'b\\') == \"aac\"']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_728": {
+      "prompt": "from typing import List\ndef add_list_then_sum_list(nums1_0, nums2_0, nums1_1, nums2_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def add_list(nums1, nums2):\n            '''Write a function to add two lists using map and lambda function.'''\n\n    as input for the 1st parameter (lst1), and 2nd parameter (lst2) parameters of the function:\n\n        from typing import List\n\n        def sum_list(lst1: List[int], lst2: List[int]) -> List[int]:\n            '''\n        \tWrite a function takes as input two lists [a_1,...,a_n], [b_1,...,b_n] and returns [a_1+b_1,...,a_n+b_n].\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert add_list([1, 2, 3],[4,5,6])==[5, 7, 9]', 'assert add_list([1,2],[3,4])==[4,6]', 'assert add_list([10,20],[50,70])==[60,90]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_58": {
+      "prompt": "def neg_count_then_opposite_Signs(list_0, list_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def neg_count(list):\n            '''Write a python function to count negative numbers in a list.'''\n\n    as input for the 1st parameter (x), and 2nd parameter (y) parameters of the function:\n\n        def opposite_Signs(x: int, y: int) -> bool:\n            '''\n        \tWrite a python function to check whether the given two integers have opposite sign or not.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert neg_count([-1,-2,3,-4,-5]) == 4', 'assert neg_count([1,2,3]) == 0', 'assert neg_count([1,2,-3,-10,20]) == 2']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_414": {
+      "prompt": "from typing import List\ndef nth_items_then_overlapping(list_0, n_0, list_1, n_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def nth_items(list, n):\n            '''Write a function to select the nth items of a list.'''\n\n    as input for the 1st parameter (list1), and 2nd parameter (list2) parameters of the function:\n\n        from typing import List\n\n        def overlapping(list1: List[int], list2: List[int]) -> bool:\n            '''\n        \tWrite a python function to check whether any value in a sequence exists in a sequence or not.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert nth_items([1, 2, 3, 4, 5, 6, 7, 8, 9],2)==[1, 3, 5, 7, 9] ', 'assert nth_items([10,15,19,17,16,18],3)==[10,17] ', 'assert nth_items([14,16,19,15,17],4)==[14,17]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_574": {
+      "prompt": "def surfacearea_cuboid_then_surfacearea_cylinder(l_0, w_0, h_0, l_1, w_1, h_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def surfacearea_cuboid(l, w, h):\n            '''Write a function to find the surface area of a cuboid.'''\n\n    as input for the 1st parameter (r), and 2nd parameter (h) parameters of the function:\n\n        def surfacearea_cylinder(r: int, h: int) -> float:\n            '''\n        \tWrite a function to find the surface area of a cylinder.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert surfacearea_cuboid(1,2,3)==22', 'assert surfacearea_cuboid(5,7,9)==286', 'assert surfacearea_cuboid(10,15,21)==1350']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_292": {
+      "prompt": "def find_Nth_Digit_then_find(p_0, q_0, N_0, p_1, q_1, N_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def find_Nth_Digit(p, q, N):\n            '''Write a python function to find the nth digit in the proper fraction of two given numbers.'''\n\n    as input for the 1st parameter (n), and 2nd parameter (m) parameters of the function:\n\n        def find(n: int, m: int) -> int:\n            '''\n        \tWrite a python function to find quotient of two numbers (rounded down to the nearest integer).\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert find_Nth_Digit(1,2,1) == 5', 'assert find_Nth_Digit(3,5,1) == 6', 'assert find_Nth_Digit(5,6,5) == 3']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_579": {
+      "prompt": "from typing import Tuple\ndef inversion_elements_then_find_dissimilar(test_tup_0, test_tup_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def inversion_elements(test_tup):\n            '''Write a function to find the inversions of tuple elements in the given tuple list.'''\n\n    as input for the 1st parameter (test_tup1), and 2nd parameter (test_tup2) parameters of the function:\n\n        from typing import Tuple\n\n        def find_dissimilar(test_tup1: Tuple[int, int, int, int], test_tup2: Tuple[int, int, int, int]) -> Tuple[int, int, int, int]:\n            '''\n        \tWrite a function to find the dissimilar elements in the given two tuples.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert inversion_elements((7, 8, 9, 1, 10, 7)) == (-8, -9, -10, -2, -11, -8)', 'assert inversion_elements((2, 4, 5, 6, 1, 7)) == (-3, -5, -6, -7, -2, -8)', 'assert inversion_elements((8, 9, 11, 14, 12, 13)) == (-9, -10, -12, -15, -13, -14)']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_430": {
+      "prompt": "def parallelogram_area_then_parabola_directrix(b_0, h_0, b_1, h_1, b_2, h_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        def parallelogram_area(b, h):\n            '''Write a function to caluclate area of a parallelogram.'''\n\n    as input for the 1st parameter (a), 2nd parameter (b), and 3rd parameter (c) parameters of the function:\n\n        def parabola_directrix(a: int, b: int, c: int) -> int:\n            '''\n        \tWrite a function to find the directrix of a parabola.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert parallelogram_area(10,20)==200', 'assert parallelogram_area(15,20)==300', 'assert parallelogram_area(8,9)==72']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_93": {
+      "prompt": "def highest_Power_of_2_then_power(n_0, n_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def highest_Power_of_2(n):\n            '''Write a python function to find highest power of 2 less than or equal to given number.'''\n\n    as input for the 1st parameter (a), and 2nd parameter (b) parameters of the function:\n\n        def power(a: int, b: int) -> int:\n            '''\n        \tWrite a function to calculate the value of 'a' to the power 'b'.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert highest_Power_of_2(10) == 8', 'assert highest_Power_of_2(19) == 16', 'assert highest_Power_of_2(32) == 32']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_126": {
+      "prompt": "def Sum_then_sum(N_0, N_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def Sum(N):\n            '''Write a python function to find sum of all prime divisors of a given number.'''\n\n    as input for the 1st parameter (a), and 2nd parameter (b) parameters of the function:\n\n        def sum(a: int, b: int) -> int:\n            '''\n        \tWrite a python function to find the sum of common divisors of two given numbers.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert Sum(60) == 10', 'assert Sum(39) == 16', 'assert Sum(40) == 7']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_618": {
+      "prompt": "from typing import List\ndef moddiv_list_then_div_list(nums1_0, nums2_0, nums1_1, nums2_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def moddiv_list(nums1, nums2):\n            '''Write a function to find modulo division of two lists using map and lambda function.'''\n\n    as input for the 1st parameter (nums1), and 2nd parameter (nums2) parameters of the function:\n\n        from typing import List\n\n        def div_list(nums1: List[int], nums2: List[int]) -> List[float]:\n            '''\n        \tWrite a function to divide two lists element wise.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert moddiv_list([4,5,6],[1, 2, 3])==[0, 1, 0]', 'assert moddiv_list([3,2],[1,4])==[0, 2]', 'assert moddiv_list([90,120],[50,70])==[40, 50]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_431": {
+      "prompt": "from typing import List, Any, Optional\ndef count_variable_then_common_element(a_0, b_0, c_0, d_0, a_1, b_1, c_1, d_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        from collections import Counter\n        def count_variable(a, b, c, d):\n            '''Write a function to iterate over elements repeating each as many times as its count.'''\n\n    as input for the 1st parameter (list1), and 2nd parameter (list2) parameters of the function:\n\n        from typing import List, Any, Optional\n\n        def common_element(list1: List[Any], list2: List[Any]) -> Optional[bool]:\n            '''\n        \tWrite a function that takes two lists and returns true if they have at least one common element.\n        \t'''\n    \"\"\"",
+      "comb_test": "[\"assert count_variable(4,2,0,-2)==['p', 'p', 'p', 'p', 'q', 'q'] \", \"assert count_variable(0,1,2,3)==['q', 'r', 'r', 's', 's', 's'] \", \"assert count_variable(11,15,12,23)==['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's']\"]",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_773": {
+      "prompt": "from typing import Optional, Tuple\ndef check_substring_then_occurance_substring(string_0, sample_0, string_1, sample_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        import re\n        def check_substring(string, sample):\n            '''Write a function to check if the given string starts with a substring using regex.'''\n\n    as input for the 1st parameter (text), and 2nd parameter (pattern) parameters of the function:\n\n        from typing import Optional, Tuple\n\n        def occurance_substring(text: str, pattern: str) -> Optional[Tuple[str, int, int]]:\n            '''\n        \tWrite a function to find the occurrence and position of the substrings within a string. Return None if there is no match.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert check_substring(\"dreams for dreams makes life fun\", \"makes\") == \\'string doesnt start with the given substring\\'', 'assert check_substring(\"Hi there how are you Hi alex\", \"Hi\") == \\'string starts with the given substring\\'', 'assert check_substring(\"Its been a long day\", \"been\") == \\'string doesnt start with the given substring\\'']",
+      "label1": 0,
+      "label2": 1,
+      "final_result": 0
+   },
+   "mbpp_293": {
+      "prompt": "def find_angle_then_otherside_rightangle(a_0, b_0, a_1, b_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def find_angle(a, b):\n            '''Write a function to find the third angle of a triangle using two angles.'''\n\n    as input for the 1st parameter (w), and 2nd parameter (h) parameters of the function:\n\n        def otherside_rightangle(w: int, h: int) -> float:\n            '''\n        \tWrite a function to find the third side of a right angled triangle.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert find_angle(47,89)==44', 'assert find_angle(45,95)==40', 'assert find_angle(50,40)==90']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_637": {
+      "prompt": "def profit_amount_then_noprofit_noloss(actual_cost_0, sale_amount_0, actual_cost_1, sale_amount_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def profit_amount(actual_cost, sale_amount):\n            '''Write a function that gives profit amount if the given amount has profit else return none.'''\n\n    as input for the 1st parameter (actual_cost), and 2nd parameter (sale_amount) parameters of the function:\n\n        def noprofit_noloss(actual_cost: int, sale_amount: int) -> bool:\n            '''\n        \tWrite a function to check whether the given amount has no profit and no loss\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert profit_amount(1500,1200)==300', 'assert profit_amount(100,200)==None', 'assert profit_amount(2000,5000)==None']",
+      "label1": 0.5,
+      "label2": 0.5,
+      "final_result": 0.5
+   },
+   "mbpp_724": {
+      "prompt": "def count_digits_then_power_base_sum(num1_0, num2_0, num1_1, num2_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def count_digits(num1, num2):\n            '''Write a function to add two numbers and print number of digits of sum.'''\n\n    as input for the 1st parameter (base), and 2nd parameter (power) parameters of the function:\n\n        def power_base_sum(base: int, power: int) -> int:\n            '''\n        \tWrite a function that takes base and power as arguments and calculate the sum of all digits of the base to the specified power.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert count_digits(9875,10)==(4)', 'assert count_digits(98759853034,100)==(11)', 'assert count_digits(1234567,500)==(7)']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_74": {
+      "prompt": "from typing import List\ndef count_variable_then_is_samepatterns(a_0, b_0, c_0, d_0, a_1, b_1, c_1, d_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        from collections import Counter\n        def count_variable(a, b, c, d):\n            '''Write a function to iterate over elements repeating each as many times as its count.'''\n\n    as input for the 1st parameter (colors), and 2nd parameter (patterns) parameters of the function:\n\n        from typing import List\n\n        def is_samepatterns(colors: List[str], patterns: List[str]) -> bool:\n            '''\n        \tWrite a function to check whether it follows the sequence given in the patterns array.\n        \t'''\n    \"\"\"",
+      "comb_test": "[\"assert count_variable(4,2,0,-2)==['p', 'p', 'p', 'p', 'q', 'q'] \", \"assert count_variable(0,1,2,3)==['q', 'r', 'r', 's', 's', 's'] \", \"assert count_variable(11,15,12,23)==['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's']\"]",
+      "label1": 0,
+      "label2": 0,
+      "final_result": 0
+   },
+   "mbpp_589": {
+      "prompt": "from typing import List\ndef sqrt_root_then_perfect_squares(num_0, num_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        import math\n        def sqrt_root(num):\n            '''Write a function to find the square root of a perfect number.'''\n\n    as input for the 1st parameter (a), and 2nd parameter (b) parameters of the function:\n\n        from typing import List\n\n        def perfect_squares(a: int, b: int) -> List[int]:\n            '''\n        \tWrite a function to find perfect squares between two given numbers.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert sqrt_root(4)==2', 'assert sqrt_root(16)==4', 'assert sqrt_root(400)==20']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_142": {
+      "prompt": "from typing import List\ndef Repeat_then_count_samepair(x_0, x_1, x_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        def Repeat(x):\n            '''Write a python function to print duplicants from a list of integers.'''\n\n    as input for the 1st parameter (list1), 2nd parameter (list2), and 3rd parameter (list3) parameters of the function:\n\n        from typing import List\n\n        def count_samepair(list1: List[int], list2: List[int], list3: List[int]) -> int:\n            '''\n        \tWrite a function to count number items that are identical in the same position of three given lists.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert Repeat([10, 20, 30, 20, 20, 30, 40, 50, -20, 60, 60, -20, -20]) == [20, 30, -20, 60]', 'assert Repeat([-1, 1, -1, 8]) == [-1]', 'assert Repeat([1, 2, 3, 1, 2,]) == [1, 2]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_257": {
+      "prompt": "from typing import List\ndef count_digits_then_swap_numbers(num1_0, num2_0, num1_1, num2_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def count_digits(num1, num2):\n            '''Write a function to add two numbers and print number of digits of sum.'''\n\n    as input for the 1st parameter (a), and 2nd parameter (b) parameters of the function:\n\n        from typing import List\n\n        def swap_numbers(a: int, b: int) -> List[int]:\n            '''\n        \tWrite a function that takes in two numbers and returns a list with the second number and then the first number.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert count_digits(9875,10)==(4)', 'assert count_digits(98759853034,100)==(11)', 'assert count_digits(1234567,500)==(7)']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_747": {
+      "prompt": "def max_char_then_lcs_of_three(str1_0, str1_1, str1_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        from collections import Counter\n        def max_char(str1):\n            '''Write a function to count the most common character in a given string.'''\n\n    as input for the 1st parameter (X), 2nd parameter (Y), and 3rd parameter (Z) parameters of the function:\n\n        def lcs_of_three(X: str, Y: str, Z: str) -> int:\n            '''\n        \tWrite a function to find the longest common subsequence for the given three string sequence. https://www.geeksforgeeks.org/lcs-longest-common-subsequence-three-strings/\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert max_char(\"hello world\")==(\\'l\\')', 'assert max_char(\"hello \")==(\\'l\\')', 'assert max_char(\"python pr\")==(\\'p\\')']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_249": {
+      "prompt": "from typing import List\ndef moddiv_list_then_intersection_array(nums1_0, nums2_0, nums1_1, nums2_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def moddiv_list(nums1, nums2):\n            '''Write a function to find modulo division of two lists using map and lambda function.'''\n\n    as input for the 1st parameter (array_nums1), and 2nd parameter (array_nums2) parameters of the function:\n\n        from typing import List\n\n        def intersection_array(array_nums1: List[int], array_nums2: List[int]) -> List[int]:\n            '''\n        \tWrite a function to find the intersection of two arrays.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert moddiv_list([4,5,6],[1, 2, 3])==[0, 1, 0]', 'assert moddiv_list([3,2],[1,4])==[0, 2]', 'assert moddiv_list([90,120],[50,70])==[40, 50]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_108": {
+      "prompt": "from typing import List\ndef combine_lists_then_merge_sorted_list(num1_0, num2_0, num1_1, num2_1, num1_2, num2_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        from heapq import merge\n        def combine_lists(num1, num2):\n            '''Write a function to combine two given sorted lists using heapq module.'''\n\n    as input for the 1st parameter (num1), 2nd parameter (num2), and 3rd parameter (num3) parameters of the function:\n\n        from typing import List\n\n        def merge_sorted_list(num1: List[int], num2: List[int], num3: List[int]) -> List[int]:\n            '''\n        \tWrite a function to merge three lists into a single sorted list.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert combine_lists([1, 3, 5, 7, 9, 11],[0, 2, 4, 6, 8, 10])==[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]', 'assert combine_lists([1, 3, 5, 6, 8, 9], [2, 5, 7, 11])==[1,2,3,5,5,6,7,8,9,11]', 'assert combine_lists([1,3,7],[2,4,6])==[1,2,3,4,6,7]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_595": {
+      "prompt": "from typing import Any\ndef binary_to_integer_then_min_Swaps(test_tup_0, test_tup_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def binary_to_integer(test_tup):\n            '''Write a function to convert the given binary tuple to integer.'''\n\n    as input for the 1st parameter (str1), and 2nd parameter (str2) parameters of the function:\n\n        from typing import Any\n\n        def min_Swaps(str1: str, str2: str) -> Any:\n            '''\n        \tWrite a python function to count minimum number of swaps required to convert one binary number represented as a string to another.\n        \t'''\n    \"\"\"",
+      "comb_test": "[\"assert binary_to_integer((1, 1, 0, 1, 0, 0, 1)) == '105'\", \"assert binary_to_integer((0, 1, 1, 0, 0, 1, 0, 1)) == '101'\", \"assert binary_to_integer((1, 1, 0, 1, 0, 1)) == '53'\"]",
+      "label1": 0,
+      "label2": 0,
+      "final_result": 0
+   },
+   "mbpp_309": {
+      "prompt": "def max_of_two_then_maximum(x_0, y_0, x_1, y_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def max_of_two(x, y):\n            '''Write a function to find maximum of two numbers.'''\n\n    as input for the 1st parameter (a), and 2nd parameter (b) parameters of the function:\n\n        def maximum(a: int, b: int) -> int:\n            '''\n        \tWrite a python function to find the maximum of two numbers.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert max_of_two(10,20)==20', 'assert max_of_two(19,15)==19', 'assert max_of_two(-10,-20)==-10']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_622": {
+      "prompt": "from typing import List\ndef combine_lists_then_get_median(num1_0, num2_0, num1_1, num2_1, n):\n    \"\"\"Create a function that takes the output of the function:\n\n        from heapq import merge\n        def combine_lists(num1, num2):\n            '''Write a function to combine two given sorted lists using heapq module.'''\n\n    as input for the 1st parameter (arr1), and 2nd parameter (arr2) parameters of the function:\n\n        from typing import List\n\n        def get_median(arr1: List[int], arr2: List[int], n: int) -> float:\n            '''\n        \tWrite a function to find the median of two sorted lists of same size.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert combine_lists([1, 3, 5, 7, 9, 11],[0, 2, 4, 6, 8, 10])==[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]', 'assert combine_lists([1, 3, 5, 6, 8, 9], [2, 5, 7, 11])==[1,2,3,5,5,6,7,8,9,11]', 'assert combine_lists([1,3,7],[2,4,6])==[1,2,3,4,6,7]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_240": {
+      "prompt": "from typing import List, Any\ndef remove_words_then_replace_list(list1_0, removewords_0, list1_1, removewords_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def remove_words(list1, removewords):\n            '''Write a function to remove specific words from a given list.'''\n\n    as input for the 1st parameter (list1), and 2nd parameter (list2) parameters of the function:\n\n        from typing import List, Any\n\n        def replace_list(list1: List[Any], list2: List[Any]) -> List[Any]:\n            '''\n        \tWrite a function that takes in two lists and replaces the last element of the first list with the elements of the second list.\n        \t'''\n    \"\"\"",
+      "comb_test": "[\"assert remove_words(['red', 'green', 'blue', 'white', 'black', 'orange'],['white', 'orange'])==['red', 'green', 'blue', 'black']\", \"assert remove_words(['red', 'green', 'blue', 'white', 'black', 'orange'],['black', 'orange'])==['red', 'green', 'blue', 'white']\", \"assert remove_words(['red', 'green', 'blue', 'white', 'black', 'orange'],['blue', 'white'])==['red', 'green', 'black', 'orange']\"]",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_11": {
+      "prompt": "def remove_Char_then_remove_Occ(s_0, c_0, s_1, c_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def remove_Char(s, c):\n            '''Write a python function to remove all occurrences of a character in a given string.'''\n\n    as input for the 1st parameter (s), and 2nd parameter (ch) parameters of the function:\n\n        def remove_Occ(s: str, ch: str) -> str:\n            '''\n        \tWrite a python function to remove first and last occurrence of a given character from the string.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert remove_Char(\"aba\",\\'a\\') == \"b\"', 'assert remove_Char(\"toggle\",\\'g\\') == \"tole\"', 'assert remove_Char(\"aabbc\",\\'b\\') == \"aac\"']",
+      "label1": 0.5,
+      "label2": 0.5,
+      "final_result": 0.5
+   },
+   "mbpp_638": {
+      "prompt": "def get_carol_then_wind_chill(n_0, n_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def get_carol(n):\n            '''Write a function to find the n鈥檛h carol number.'''\n\n    as input for the 1st parameter (v), and 2nd parameter (t) parameters of the function:\n\n        def wind_chill(v: int, t: int) -> int:\n            '''\n        \tWrite a function to calculate the wind chill index rounded to the next integer given the wind velocity in km/h and a temperature in celsius.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert get_carol(2) == 7', 'assert get_carol(4) == 223', 'assert get_carol(5) == 959']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_306": {
+      "prompt": "from typing import List\ndef max_sum_increasing_subsequence_then_max_sum_increasing_subseq(a, arr_0, n_0, arr_1, n_1, arr_2, n_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        def max_sum_increasing_subsequence(arr, n):\n            '''Write a function to find the sum of maximum increasing subsequence of the given array.'''\n\n    as input for the 2nd parameter (n), 3rd parameter (index), and 4th parameter (k) parameters of the function:\n\n        from typing import List\n\n        def max_sum_increasing_subseq(a: List[int], n: int, index: int, k: int) -> int:\n            '''\n        \tWrite a function to find the maximum sum of increasing subsequence from prefix until ith index and also including a given kth element which is after i, i.e., k > i .\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert max_sum_increasing_subsequence([1, 101, 2, 3, 100, 4, 5], 7) == 106', 'assert max_sum_increasing_subsequence([3, 4, 5, 10], 4) == 22', 'assert max_sum_increasing_subsequence([10, 5, 4, 3], 4) == 10']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_746": {
+      "prompt": "from typing import Optional\ndef area_trapezium_then_sector_area(base1_0, base2_0, height_0, base1_1, base2_1, height_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def area_trapezium(base1, base2, height):\n            '''Write a function to find the area of a trapezium.'''\n\n    as input for the 1st parameter (r), and 2nd parameter (a) parameters of the function:\n\n        from typing import Optional\n\n        def sector_area(r: int, a: int) -> Optional[float]:\n            '''\n        \tWrite a function to find area of a sector. The function takes the radius and angle as inputs. Function should return None if the angle is larger than 360 degrees.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert area_trapezium(6,9,4)==30', 'assert area_trapezium(10,20,30)==450', 'assert area_trapezium(15,25,35)==700']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_164": {
+      "prompt": "def Sum_then_are_equivalent(N_0, N_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def Sum(N):\n            '''Write a python function to find sum of all prime divisors of a given number.'''\n\n    as input for the 1st parameter (num1), and 2nd parameter (num2) parameters of the function:\n\n        def are_equivalent(num1: int, num2: int) -> bool:\n            '''\n        \tWrite a function to determine if the sum of the divisors of two integers are the same.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert Sum(60) == 10', 'assert Sum(39) == 16', 'assert Sum(40) == 7']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_432": {
+      "prompt": "def area_trapezium_then_median_trapezium(base1_0, base2_0, height_0, base1_1, base2_1, height_1, base1_2, base2_2, height_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        def area_trapezium(base1, base2, height):\n            '''Write a function to find the area of a trapezium.'''\n\n    as input for the 1st parameter (base1), 2nd parameter (base2), and 3rd parameter (height) parameters of the function:\n\n        def median_trapezium(base1: int, base2: int, height: int) -> float:\n            '''\n        \tWrite a function to find the median length of a trapezium.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert area_trapezium(6,9,4)==30', 'assert area_trapezium(10,20,30)==450', 'assert area_trapezium(15,25,35)==700']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_458": {
+      "prompt": "def rectangle_perimeter_then_rectangle_area(l_0, b_0, l_1, b_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def rectangle_perimeter(l, b):\n            '''Write a function to find the perimeter of a rectangle.'''\n\n    as input for the 1st parameter (l), and 2nd parameter (b) parameters of the function:\n\n        def rectangle_area(l: int, b: int) -> int:\n            '''\n        \tWrite a function to find the area of a rectangle.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert rectangle_perimeter(10,20)==60', 'assert rectangle_perimeter(10,5)==30', 'assert rectangle_perimeter(4,2)==12']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_429": {
+      "prompt": "from typing import Tuple\ndef sum_of_alternates_then_and_tuples(test_tuple_0, test_tuple_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def sum_of_alternates(test_tuple):\n            '''Write a function to extract the sum of alternate chains of tuples.'''\n\n    as input for the 1st parameter (test_tup1), and 2nd parameter (test_tup2) parameters of the function:\n\n        from typing import Tuple\n\n        def and_tuples(test_tup1: Tuple[int, int, int, int], test_tup2: Tuple[int, int, int, int]) -> Tuple[int, int, int, int]:\n            '''\n        \tWrite a function to extract the elementwise and tuples from the given two tuples.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert sum_of_alternates((5, 6, 3, 6, 10, 34)) == (46, 18)', 'assert sum_of_alternates((1, 2, 3, 4, 5)) == (6, 9)', 'assert sum_of_alternates((6, 7, 8, 9, 4, 5)) == (21, 18)']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_401": {
+      "prompt": "from typing import List\ndef remove_column_then_add_nested_tuples(list1_0, n_0, list1_1, n_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def remove_column(list1, n):\n            '''Write a function to remove a specified column from a given nested list.'''\n\n    as input for the 1st parameter (test_tup1), and 2nd parameter (test_tup2) parameters of the function:\n\n        from typing import List\n\n        def add_nested_tuples(test_tup1: List[List[int]], test_tup2: List[List[int]]) -> List[List[int]]:\n            '''\n        \tWrite a function to perform index wise addition of list elements in the given two nested lists.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert remove_column([[1, 2, 3], [2, 4, 5], [1, 1, 1]],0)==[[2, 3], [4, 5], [1, 1]]', 'assert remove_column([[1, 2, 3], [-2, 4, -5], [1, -1, 1]],2)==[[1, 2], [-2, 4], [1, -1]]', 'assert remove_column([[1, 3], [5, 7], [1, 3], [13, 15, 17], [5, 7], [9, 11]],0)==[[3], [7], [3], [15, 17], [7], [11]]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_558": {
+      "prompt": "def count_digits_then_digit_distance_nums(num1_0, num2_0, num1_1, num2_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def count_digits(num1, num2):\n            '''Write a function to add two numbers and print number of digits of sum.'''\n\n    as input for the 1st parameter (n1), and 2nd parameter (n2) parameters of the function:\n\n        def digit_distance_nums(n1: int, n2: int) -> int:\n            '''\n        \tWrite a python function to find the sum of the per-digit difference between two integers.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert count_digits(9875,10)==(4)', 'assert count_digits(98759853034,100)==(11)', 'assert count_digits(1234567,500)==(7)']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_304": {
+      "prompt": "from typing import List\ndef find_Min_then_find_Element(arr, ranges, arr_0, low_0, high_0, arr_1, low_1, high_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def find_Min(arr, low, high):\n            '''Write a python function to find the minimum element in a sorted and rotated array.'''\n\n    as input for the 3rd parameter (rotations), and 4th parameter (index) parameters of the function:\n\n        from typing import List\n\n        def find_Element(arr: List[int], ranges: List[List[int]], rotations: int, index: int) -> int:\n            '''\n        \tWrite a python function to find element at a given index after number of rotations.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert find_Min([1,2,3,4,5],0,4) == 1', 'assert find_Min([4,6,8],0,2) == 4', 'assert find_Min([2,3,5,7,9],0,4) == 2']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_14": {
+      "prompt": "def volume_cuboid_then_find_Volume(l_0, w_0, h_0, l_1, w_1, h_1, l_2, w_2, h_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        def volume_cuboid(l, w, h):\n            '''Write a function to find the volume of a cuboid.'''\n\n    as input for the 1st parameter (l), 2nd parameter (b), and 3rd parameter (h) parameters of the function:\n\n        def find_Volume(l: int, b: int, h: int) -> int:\n            '''\n        \tWrite a python function to find the volume of a triangular prism.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert volume_cuboid(1,2,3)==6', 'assert volume_cuboid(5,7,9)==315', 'assert volume_cuboid(10,15,21)==3150']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_597": {
+      "prompt": "from typing import List\ndef combine_lists_then_find_kth(num1_0, num2_0, num1_1, num2_1, k):\n    \"\"\"Create a function that takes the output of the function:\n\n        from heapq import merge\n        def combine_lists(num1, num2):\n            '''Write a function to combine two given sorted lists using heapq module.'''\n\n    as input for the 1st parameter (arr1), and 2nd parameter (arr2) parameters of the function:\n\n        from typing import List\n\n        def find_kth(arr1: List[int], arr2: List[int], k: int) -> int:\n            '''\n        \tWrite a function to find kth element from the given two sorted arrays.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert combine_lists([1, 3, 5, 7, 9, 11],[0, 2, 4, 6, 8, 10])==[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]', 'assert combine_lists([1, 3, 5, 6, 8, 9], [2, 5, 7, 11])==[1,2,3,5,5,6,7,8,9,11]', 'assert combine_lists([1,3,7],[2,4,6])==[1,2,3,4,6,7]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_127": {
+      "prompt": "def count_digits_then_multiply_int(num1_0, num2_0, num1_1, num2_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def count_digits(num1, num2):\n            '''Write a function to add two numbers and print number of digits of sum.'''\n\n    as input for the 1st parameter (x), and 2nd parameter (y) parameters of the function:\n\n        def multiply_int(x: int, y: int) -> int:\n            '''\n        \tWrite a function to multiply two integers.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert count_digits(9875,10)==(4)', 'assert count_digits(98759853034,100)==(11)', 'assert count_digits(1234567,500)==(7)']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_160": {
+      "prompt": "from typing import Optional, Tuple\ndef mutiple_tuple_then_find_solution(nums_0, nums_1, nums_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        def mutiple_tuple(nums):\n            '''Write a python function to calculate the product of all the numbers of a given tuple.'''\n\n    as input for the 1st parameter (a), 2nd parameter (b), and 3rd parameter (n) parameters of the function:\n\n        from typing import Optional, Tuple\n\n        def find_solution(a: int, b: int, n: int) -> Optional[Tuple[int, int]]:\n            '''\n        \tWrite a function that returns integers x and y that satisfy ax + by = n as a tuple, or return None if no solution exists.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert mutiple_tuple((4, 3, 2, 2, -1, 18)) == -864', 'assert mutiple_tuple((1,2,3)) == 6', 'assert mutiple_tuple((-2,-4,-6)) == -48']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_452": {
+      "prompt": "def profit_amount_then_loss_amount(actual_cost_0, sale_amount_0, actual_cost_1, sale_amount_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def profit_amount(actual_cost, sale_amount):\n            '''Write a function that gives profit amount if the given amount has profit else return none.'''\n\n    as input for the 1st parameter (actual_cost), and 2nd parameter (sale_amount) parameters of the function:\n\n        def loss_amount(actual_cost: int, sale_amount: int) -> int:\n            '''\n        \tWrite a function that gives loss amount on a sale if the given amount has loss else return 0.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert profit_amount(1500,1200)==300', 'assert profit_amount(100,200)==None', 'assert profit_amount(2000,5000)==None']",
+      "label1": 0,
+      "label2": 0,
+      "final_result": 0
+   },
+   "mbpp_273": {
+      "prompt": "from typing import Tuple\ndef find_exponentio_then_substract_elements(test_tup1_0, test_tup2_0, test_tup1_1, test_tup2_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def find_exponentio(test_tup1, test_tup2):\n            '''Write a function to perform the exponentiation of the given two tuples.'''\n\n    as input for the 1st parameter (test_tup1), and 2nd parameter (test_tup2) parameters of the function:\n\n        from typing import Tuple\n\n        def substract_elements(test_tup1: Tuple[int, int, int], test_tup2: Tuple[int, int, int]) -> Tuple[int, int, int]:\n            '''\n        \tWrite a function that takes in two tuples and subtracts the elements of the first tuple by the elements of the second tuple with the same index.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert find_exponentio((10, 4, 5, 6), (5, 6, 7, 5)) == (100000, 4096, 78125, 7776)', 'assert find_exponentio((11, 5, 6, 7), (6, 7, 8, 6)) == (1771561, 78125, 1679616, 117649)', 'assert find_exponentio((12, 6, 7, 8), (7, 8, 9, 7)) == (35831808, 1679616, 40353607, 2097152)']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_723": {
+      "prompt": "from typing import List\ndef add_list_then_count_same_pair(nums1_0, nums2_0, nums1_1, nums2_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def add_list(nums1, nums2):\n            '''Write a function to add two lists using map and lambda function.'''\n\n    as input for the 1st parameter (nums1), and 2nd parameter (nums2) parameters of the function:\n\n        from typing import List\n\n        def count_same_pair(nums1: List[int], nums2: List[int]) -> int:\n            '''\n        \tThe input is defined as two lists of the same length. Write a function to count indices where the lists have the same values.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert add_list([1, 2, 3],[4,5,6])==[5, 7, 9]', 'assert add_list([1,2],[3,4])==[4,6]', 'assert add_list([10,20],[50,70])==[60,90]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_404": {
+      "prompt": "def min_of_two_then_minimum(x_0, y_0, x_1, y_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def min_of_two(x, y):\n            '''Write a function to find minimum of two numbers.'''\n\n    as input for the 1st parameter (a), and 2nd parameter (b) parameters of the function:\n\n        def minimum(a: int, b: int) -> int:\n            '''\n        \tWrite a python function to find the minimum of two numbers.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert min_of_two(10,20)==10', 'assert min_of_two(19,15)==15', 'assert min_of_two(-10,-20)==-20']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_616": {
+      "prompt": "from typing import Tuple\ndef find_exponentio_then_tuple_modulo(test_tup1_0, test_tup2_0, test_tup1_1, test_tup2_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def find_exponentio(test_tup1, test_tup2):\n            '''Write a function to perform the exponentiation of the given two tuples.'''\n\n    as input for the 1st parameter (test_tup1), and 2nd parameter (test_tup2) parameters of the function:\n\n        from typing import Tuple\n\n        def tuple_modulo(test_tup1: Tuple[int, int, int, int], test_tup2: Tuple[int, int, int, int]) -> Tuple[int, int, int, int]:\n            '''\n        \tWrite a function which takes two tuples of the same length and performs the element wise modulo.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert find_exponentio((10, 4, 5, 6), (5, 6, 7, 5)) == (100000, 4096, 78125, 7776)', 'assert find_exponentio((11, 5, 6, 7), (6, 7, 8, 6)) == (1771561, 78125, 1679616, 117649)', 'assert find_exponentio((12, 6, 7, 8), (7, 8, 9, 7)) == (35831808, 1679616, 40353607, 2097152)']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_161": {
+      "prompt": "from typing import List\ndef remove_even_then_remove_elements(l_0, l_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def remove_even(l):\n            '''Write a python function to remove even numbers from a given list.'''\n\n    as input for the 1st parameter (list1), and 2nd parameter (list2) parameters of the function:\n\n        from typing import List\n\n        def remove_elements(list1: List[int], list2: List[int]) -> List[int]:\n            '''\n        \tWrite a function to remove all elements from a given list present in another list.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert remove_even([1,3,5,2]) == [1,3,5]', 'assert remove_even([5,6,7]) == [5,7]', 'assert remove_even([1,2,3,4]) == [1,3]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_745": {
+      "prompt": "from typing import List\ndef find_Nth_Digit_then_divisible_by_digits(p_0, q_0, N_0, p_1, q_1, N_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def find_Nth_Digit(p, q, N):\n            '''Write a python function to find the nth digit in the proper fraction of two given numbers.'''\n\n    as input for the 1st parameter (startnum), and 2nd parameter (endnum) parameters of the function:\n\n        from typing import List\n\n        def divisible_by_digits(startnum: int, endnum: int) -> List[int]:\n            '''\n        \tWrite a function to find numbers within a given range from startnum ti endnum where every number is divisible by every digit it contains. https://www.w3resource.com/python-exercises/lambda/python-lambda-exercise-24.php\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert find_Nth_Digit(1,2,1) == 5', 'assert find_Nth_Digit(3,5,1) == 6', 'assert find_Nth_Digit(5,6,5) == 3']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_259": {
+      "prompt": "from typing import List\ndef reverse_list_lists_then_maximize_elements(lists_0, lists_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def reverse_list_lists(lists):\n            '''Write a function to reverse each list in a given list of lists.'''\n\n    as input for the 1st parameter (test_tup1), and 2nd parameter (test_tup2) parameters of the function:\n\n        from typing import List\n\n        def maximize_elements(test_tup1: List[List[int]], test_tup2: List[List[int]]) -> List[List[int]]:\n            '''\n        \tWrite a function to maximize the given two lists.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert reverse_list_lists([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]])==[[4, 3, 2, 1], [8, 7, 6, 5], [12, 11, 10, 9], [16, 15, 14, 13]]', 'assert reverse_list_lists([[1,2],[2,3],[3,4]])==[[2,1],[3,2],[4,3]]', 'assert reverse_list_lists([[10,20],[30,40]])==[[20,10],[40,30]]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_783": {
+      "prompt": "from typing import List\ndef get_carol_then_rgb_to_hsv(n_0, n_1, n_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        def get_carol(n):\n            '''Write a function to find the n鈥檛h carol number.'''\n\n    as input for the 1st parameter (r), 2nd parameter (g), and 3rd parameter (b) parameters of the function:\n\n        from typing import List\n\n        def rgb_to_hsv(r: int, g: int, b: int) -> List[float]:\n            '''\n        \tWrite a function to convert rgb color to hsv color. https://www.geeksforgeeks.org/program-change-rgb-color-model-hsv-color-model/\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert get_carol(2) == 7', 'assert get_carol(4) == 223', 'assert get_carol(5) == 959']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_399": {
+      "prompt": "from typing import Tuple\ndef find_exponentio_then_bitwise_xor(test_tup1_0, test_tup2_0, test_tup1_1, test_tup2_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def find_exponentio(test_tup1, test_tup2):\n            '''Write a function to perform the exponentiation of the given two tuples.'''\n\n    as input for the 1st parameter (test_tup1), and 2nd parameter (test_tup2) parameters of the function:\n\n        from typing import Tuple\n\n        def bitwise_xor(test_tup1: Tuple[int, int, int, int], test_tup2: Tuple[int, int, int, int]) -> Tuple[int, int, int, int]:\n            '''\n        \tWrite a function to perform the mathematical bitwise xor operation across the given tuples.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert find_exponentio((10, 4, 5, 6), (5, 6, 7, 5)) == (100000, 4096, 78125, 7776)', 'assert find_exponentio((11, 5, 6, 7), (6, 7, 8, 6)) == (1771561, 78125, 1679616, 117649)', 'assert find_exponentio((12, 6, 7, 8), (7, 8, 9, 7)) == (35831808, 1679616, 40353607, 2097152)']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_731": {
+      "prompt": "def lateralsurface_cuboid_then_lateralsurface_cone(l_0, w_0, h_0, l_1, w_1, h_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def lateralsurface_cuboid(l, w, h):\n            '''Write a function to find the lateral surface area of cuboid'''\n\n    as input for the 1st parameter (r), and 2nd parameter (h) parameters of the function:\n\n        def lateralsurface_cone(r: int, h: int) -> float:\n            '''\n        \tWrite a function to find the lateral surface area of a cone given radius r and the height h.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert lateralsurface_cuboid(8,5,6)==156', 'assert lateralsurface_cuboid(7,9,10)==320', 'assert lateralsurface_cuboid(10,20,30)==1800']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_581": {
+      "prompt": "def surfacearea_cuboid_then_surface_Area(l_0, w_0, h_0, l_1, w_1, h_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def surfacearea_cuboid(l, w, h):\n            '''Write a function to find the surface area of a cuboid.'''\n\n    as input for the 1st parameter (b), and 2nd parameter (s) parameters of the function:\n\n        def surface_Area(b: int, s: int) -> int:\n            '''\n        \tWrite a python function to find the surface area of a square pyramid with a given base edge and height.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert surfacearea_cuboid(1,2,3)==22', 'assert surfacearea_cuboid(5,7,9)==286', 'assert surfacearea_cuboid(10,15,21)==1350']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_227": {
+      "prompt": "def min_of_two_then_min_of_three(x_0, y_0, x_1, y_1, x_2, y_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        def min_of_two(x, y):\n            '''Write a function to find minimum of two numbers.'''\n\n    as input for the 1st parameter (a), 2nd parameter (b), and 3rd parameter (c) parameters of the function:\n\n        def min_of_three(a: int, b: int, c: int) -> int:\n            '''\n        \tWrite a function to find minimum of three numbers.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert min_of_two(10,20)==10', 'assert min_of_two(19,15)==15', 'assert min_of_two(-10,-20)==-20']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_261": {
+      "prompt": "from typing import Tuple\ndef find_exponentio_then_division_elements(test_tup1_0, test_tup2_0, test_tup1_1, test_tup2_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def find_exponentio(test_tup1, test_tup2):\n            '''Write a function to perform the exponentiation of the given two tuples.'''\n\n    as input for the 1st parameter (test_tup1), and 2nd parameter (test_tup2) parameters of the function:\n\n        from typing import Tuple\n\n        def division_elements(test_tup1: Tuple[int, int, int, int], test_tup2: Tuple[int, int, int, int]) -> Tuple[int, int, int, int]:\n            '''\n        \tWrite a function that takes in two tuples and performs mathematical division operation element-wise across the given tuples.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert find_exponentio((10, 4, 5, 6), (5, 6, 7, 5)) == (100000, 4096, 78125, 7776)', 'assert find_exponentio((11, 5, 6, 7), (6, 7, 8, 6)) == (1771561, 78125, 1679616, 117649)', 'assert find_exponentio((12, 6, 7, 8), (7, 8, 9, 7)) == (35831808, 1679616, 40353607, 2097152)']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_754": {
+      "prompt": "from typing import List, Any\ndef access_elements_then_extract_index_list(nums_0, list_index_0, nums_1, list_index_1, nums_2, list_index_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        def access_elements(nums, list_index):\n            '''Write a python function to access multiple elements of specified index from a given list.'''\n\n    as input for the 1st parameter (l1), 2nd parameter (l2), and 3rd parameter (l3) parameters of the function:\n\n        from typing import List, Any\n\n        def extract_index_list(l1: List[int], l2: List[int], l3: List[int]) -> List[Any]:\n            '''\n        \tWe say that an element is common for lists l1, l2, l3 if it appears in all three lists under the same index. Write a function to find common elements from three lists. The function should return a list.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert access_elements([2,3,8,4,7,9],[0,3,5]) == [2, 4, 9]', 'assert access_elements([1, 2, 3, 4, 5],[1,2]) == [2,3]', 'assert access_elements([1,0,2,3],[0,1]) == [1,0]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_170": {
+      "prompt": "from typing import List\ndef sum_Range_list_then_sum_range_list(list1, nums_0, m_0, n_0, nums_1, m_1, n_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def sum_Range_list(nums, m, n):\n            '''Write a python function to calculate the sum of the numbers in a list between the indices of a specified range.'''\n\n    as input for the 2nd parameter (m), and 3rd parameter (n) parameters of the function:\n\n        from typing import List\n\n        def sum_range_list(list1: List[int], m: int, n: int) -> int:\n            '''\n        \tWrite a function to find the sum of numbers in a list within a range specified by two indices.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert sum_Range_list([2, 1, 5, 6, 8, 3, 4, 9, 10, 11, 8, 12],8,10) == 29', 'assert sum_Range_list([1,2,3,4,5],1,2) == 5', 'assert sum_Range_list([1,0,1,2,5,6],4,5) == 11']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_801": {
+      "prompt": "def count_Pairs_then_test_three_equal(arr_0, n_0, arr_1, n_1, arr_2, n_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        def count_Pairs(arr, n):\n            '''Write a python function to count equal element pairs from the given array.'''\n\n    as input for the 1st parameter (x), 2nd parameter (y), and 3rd parameter (z) parameters of the function:\n\n        def test_three_equal(x: int, y: int, z: int) -> int:\n            '''\n        \tWrite a python function to count the number of equal numbers from three given integers.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert count_Pairs([1,1,1,1],4) == 6', 'assert count_Pairs([1,5,1],3) == 1', 'assert count_Pairs([3,2,1,7,8,9],6) == 0']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_560": {
+      "prompt": "from typing import List\ndef combine_lists_then_union_elements(num1_0, num2_0, num1_1, num2_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        from heapq import merge\n        def combine_lists(num1, num2):\n            '''Write a function to combine two given sorted lists using heapq module.'''\n\n    as input for the 1st parameter (test_tup1), and 2nd parameter (test_tup2) parameters of the function:\n\n        from typing import List\n\n        def union_elements(test_tup1: List[int], test_tup2: List[int]) -> List[int]:\n            '''\n        \tWrite a function to find the union of the elements of two given lists and output them in sorted order.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert combine_lists([1, 3, 5, 7, 9, 11],[0, 2, 4, 6, 8, 10])==[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]', 'assert combine_lists([1, 3, 5, 6, 8, 9], [2, 5, 7, 11])==[1,2,3,5,5,6,7,8,9,11]', 'assert combine_lists([1,3,7],[2,4,6])==[1,2,3,4,6,7]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_576": {
+      "prompt": "from typing import List\ndef diff_consecutivenums_then_is_Sub_Array(nums_0, nums_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def diff_consecutivenums(nums):\n            '''Write a function to find the difference between two consecutive numbers in a given list.'''\n\n    as input for the 1st parameter (A), and 2nd parameter (B) parameters of the function:\n\n        from typing import List\n\n        def is_Sub_Array(A: List[int], B: List[int]) -> bool:\n            '''\n        \tWrite a python function to check whether a list is sublist of another or not.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert diff_consecutivenums([1, 1, 3, 4, 4, 5, 6, 7])==[0, 2, 1, 0, 1, 1, 1]', 'assert diff_consecutivenums([4, 5, 8, 9, 6, 10])==[1, 3, 1, -3, 4]', 'assert diff_consecutivenums([0, 1, 2, 3, 4, 4, 4, 4, 5, 7])==[1, 1, 1, 1, 0, 0, 0, 1, 2]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_103": {
+      "prompt": "def zigzag_then_eulerian_num(n_0, k_0, n_1, k_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def zigzag(n, k):\n            '''Write a function to find entringer number e(n, k).'''\n\n    as input for the 1st parameter (n), and 2nd parameter (m) parameters of the function:\n\n        def eulerian_num(n: int, m: int) -> int:\n            '''\n        \tWrite a function to find the Eulerian number a(n, m).\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert zigzag(4, 3) == 5', 'assert zigzag(4, 2) == 4', 'assert zigzag(3, 1) == 1']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_286": {
+      "prompt": "from typing import List\ndef max_sum_increasing_subsequence_then_max_sub_array_sum_repeated(a, arr_0, n_0, arr_1, n_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def max_sum_increasing_subsequence(arr, n):\n            '''Write a function to find the sum of maximum increasing subsequence of the given array.'''\n\n    as input for the 2nd parameter (n), and 3rd parameter (k) parameters of the function:\n\n        from typing import List\n\n        def max_sub_array_sum_repeated(a: List[int], n: int, k: int) -> int:\n            '''\n        \tWrite a function to find the largest sum of a contiguous array in the modified array which is formed by repeating the given array k times.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert max_sum_increasing_subsequence([1, 101, 2, 3, 100, 4, 5], 7) == 106', 'assert max_sum_increasing_subsequence([3, 4, 5, 10], 4) == 22', 'assert max_sum_increasing_subsequence([10, 5, 4, 3], 4) == 10']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_445": {
+      "prompt": "from typing import List\ndef reverse_list_lists_then_index_multiplication(lists_0, lists_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def reverse_list_lists(lists):\n            '''Write a function to reverse each list in a given list of lists.'''\n\n    as input for the 1st parameter (test_tup1), and 2nd parameter (test_tup2) parameters of the function:\n\n        from typing import List\n\n        def index_multiplication(test_tup1: List[List[int]], test_tup2: List[List[int]]) -> List[List[int]]:\n            '''\n        \tWrite a function to perform index wise multiplication of list elements in the given two lists.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert reverse_list_lists([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]])==[[4, 3, 2, 1], [8, 7, 6, 5], [12, 11, 10, 9], [16, 15, 14, 13]]', 'assert reverse_list_lists([[1,2],[2,3],[3,4]])==[[2,1],[3,2],[4,3]]', 'assert reverse_list_lists([[10,20],[30,40]])==[[20,10],[40,30]]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_87": {
+      "prompt": "from typing import Dict\ndef merge_dictionaries_then_merge_dictionaries_three(dict1_0, dict2_0, dict1_1, dict2_1, dict1_2, dict2_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        import collections as ct\n        def merge_dictionaries(dict1, dict2):\n            '''Write a function to merge two dictionaries into a single expression.'''\n\n    as input for the 1st parameter (dict1), 2nd parameter (dict2), and 3rd parameter (dict3) parameters of the function:\n\n        from typing import Dict\n\n        def merge_dictionaries_three(dict1: Dict[str, str], dict2: Dict[str, str], dict3: Dict[str, str]) -> Dict[str, str]:\n            '''\n        \tWrite a function to merge three dictionaries into a single dictionary.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert merge_dictionaries({ \"R\": \"Red\", \"B\": \"Black\", \"P\": \"Pink\" }, { \"G\": \"Green\", \"W\": \"White\" })=={\\'B\\': \\'Black\\', \\'R\\': \\'Red\\', \\'P\\': \\'Pink\\', \\'G\\': \\'Green\\', \\'W\\': \\'White\\'}', 'assert merge_dictionaries({ \"R\": \"Red\", \"B\": \"Black\", \"P\": \"Pink\" },{ \"O\": \"Orange\", \"W\": \"White\", \"B\": \"Black\" })=={\\'O\\': \\'Orange\\', \\'P\\': \\'Pink\\', \\'B\\': \\'Black\\', \\'W\\': \\'White\\', \\'R\\': \\'Red\\'}', 'assert merge_dictionaries({ \"G\": \"Green\", \"W\": \"White\" },{ \"O\": \"Orange\", \"W\": \"White\", \"B\": \"Black\" })=={\\'W\\': \\'White\\', \\'O\\': \\'Orange\\', \\'G\\': \\'Green\\', \\'B\\': \\'Black\\'}']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_230": {
+      "prompt": "def remove_spaces_then_replace_blank(text_0, text_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        import re\n        def remove_spaces(text):\n            '''Write a function to remove multiple spaces in a string.'''\n\n    as input for the 1st parameter (str1), and 2nd parameter (char) parameters of the function:\n\n        def replace_blank(str1: str, char: str) -> str:\n            '''\n        \tWrite a function that takes in a string and character, replaces blank spaces in the string with the character, and returns the string.\n        \t'''\n    \"\"\"",
+      "comb_test": "[\"assert remove_spaces('python  program')==('python program')\", \"assert remove_spaces('python   programming    language')==('python programming language')\", \"assert remove_spaces('python                     program')==('python program')\"]",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_223": {
+      "prompt": "from typing import List\ndef first_Element_then_is_majority(arr, arr_0, n_0, k_0, arr_1, n_1, k_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def first_Element(arr, n, k):\n            '''Write a python function to find the first element occurring k times in a given array.'''\n\n    as input for the 2nd parameter (n), and 3rd parameter (x) parameters of the function:\n\n        from typing import List\n\n        def is_majority(arr: List[int], n: int, x: int) -> bool:\n            '''\n        \tWrite a function that takes in a sorted array, its length (n), and an element and returns whether the element is the majority element in the given sorted array. (The majority element is the element that occurs more than n/2 times.)\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert first_Element([0,1,2,3,4,5],6,1) == 0', 'assert first_Element([1,2,1,3,4],5,2) == 1', 'assert first_Element([2,3,4,3,5,7,1,2,3,5],10,2) == 2']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_228": {
+      "prompt": "def count_unset_bits_then_all_Bits_Set_In_The_Given_Range(n_0, n_1, n_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        def count_unset_bits(n):\n            '''Write a python function to count unset bits of a given number.'''\n\n    as input for the 1st parameter (n), 2nd parameter (l), and 3rd parameter (r) parameters of the function:\n\n        def all_Bits_Set_In_The_Given_Range(n: int, l: int, r: int) -> bool:\n            '''\n        \tWrite a python function to check whether all the bits are unset in the given range or not.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert count_unset_bits(2) == 1', 'assert count_unset_bits(4) == 2', 'assert count_unset_bits(6) == 1']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_291": {
+      "prompt": "def count_ways_then_count_no_of_ways(n_0, n_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def count_ways(n):\n            '''Write a function to find the number of ways to fill it with 2 x 1 dominoes for the given 3 x n board.'''\n\n    as input for the 1st parameter (n), and 2nd parameter (k) parameters of the function:\n\n        def count_no_of_ways(n: int, k: int) -> int:\n            '''\n        \tWrite a function to find out the number of ways of painting the fence such that at most 2 adjacent posts have the same color for the given fence with n posts and k colors.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert count_ways(2) == 3', 'assert count_ways(8) == 153', 'assert count_ways(12) == 2131']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_797": {
+      "prompt": "def cube_Sum_then_sum_in_range(n_0, n_1):\n    \"\"\"Create a function that takes the output of the function:\n\n        def cube_Sum(n):\n            '''Write a python function to find the cube sum of first n odd natural numbers.'''\n\n    as input for the 1st parameter (l), and 2nd parameter (r) parameters of the function:\n\n        def sum_in_range(l: int, r: int) -> int:\n            '''\n        \tWrite a python function to find the sum of all odd natural numbers within the range l and r.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert cube_Sum(2) == 28', 'assert cube_Sum(3) == 153', 'assert cube_Sum(4) == 496']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_578": {
+      "prompt": "from typing import List\ndef mul_consecutive_nums_then_interleave_lists(nums_0, nums_1, nums_2):\n    \"\"\"Create a function that takes the output of the function:\n\n        def mul_consecutive_nums(nums):\n            '''Write a function to multiply consecutive numbers of a given list.'''\n\n    as input for the 1st parameter (list1), 2nd parameter (list2), and 3rd parameter (list3) parameters of the function:\n\n        from typing import List\n\n        def interleave_lists(list1: List[int], list2: List[int], list3: List[int]) -> List[int]:\n            '''\n        \tWrite a function to interleave 3 lists of the same length into a single flat list.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert mul_consecutive_nums([1, 1, 3, 4, 4, 5, 6, 7])==[1, 3, 12, 16, 20, 30, 42]', 'assert mul_consecutive_nums([4, 5, 8, 9, 6, 10])==[20, 40, 72, 54, 60]', 'assert mul_consecutive_nums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])==[2, 6, 12, 20, 30, 42, 56, 72, 90]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   },
+   "mbpp_308": {
+      "prompt": "from typing import List\ndef position_max_then_large_product(list1_0, list1_1, N):\n    \"\"\"Create a function that takes the output of the function:\n\n        def position_max(list1):\n            '''Write a function to find all index positions of the maximum values in a given list.'''\n\n    as input for the 1st parameter (nums1), and 2nd parameter (nums2) parameters of the function:\n\n        from typing import List\n\n        def large_product(nums1: List[int], nums2: List[int], N: int) -> List[int]:\n            '''\n        \tWrite a function to find the specified number of largest products from two given lists, selecting one factor from each list.\n        \t'''\n    \"\"\"",
+      "comb_test": "['assert position_max([12,33,23,10,67,89,45,667,23,12,11,10,54])==[7]', 'assert position_max([1,2,2,2,4,4,4,5,5,5,5])==[7,8,9,10]', 'assert position_max([2,1,5,6,8,3,4,9,10,11,8,12])==[11]']",
+      "label1": 1,
+      "label2": 1,
+      "final_result": 1
+   }
+}

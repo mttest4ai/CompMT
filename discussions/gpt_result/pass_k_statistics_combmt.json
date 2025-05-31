@@ -1,0 +1,132 @@
+{
+    "pass@1": {
+        "mutant_1": {
+            "humaneval": {
+                "passat10_chatgpt": 0.15723684210526317
+            },
+            "mbpp": {
+                "passat10_chatgpt": 0.30446194225721784
+            }
+        },
+        "mutant_2": {
+            "humaneval": {
+                "passat10_chatgpt": 0.10370370370370371
+            },
+            "mbpp": {
+                "passat10_chatgpt": 0.23855421686746994
+            }
+        },
+        "mutant_3": {
+            "humaneval": {
+                "passat10_chatgpt": 0.017647058823529415
+            },
+            "mbpp": {
+                "passat10_chatgpt": 0.14603174603174598
+            }
+        }
+    },
+    "pass@3": {
+        "mutant_1": {
+            "humaneval": {
+                "passat10_chatgpt": 0.29720394736842104
+            },
+            "mbpp": {
+                "passat10_chatgpt": 0.5174759405074365
+            }
+        },
+        "mutant_2": {
+            "humaneval": {
+                "passat10_chatgpt": 0.21944444444444447
+            },
+            "mbpp": {
+                "passat10_chatgpt": 0.4322289156626506
+            }
+        },
+        "mutant_3": {
+            "humaneval": {
+                "passat10_chatgpt": 0.049019607843137254
+            },
+            "mbpp": {
+                "passat10_chatgpt": 0.3158730158730159
+            }
+        }
+    },
+    "pass@5": {
+        "mutant_1": {
+            "humaneval": {
+                "passat10_chatgpt": 0.3699613617376776
+            },
+            "mbpp": {
+                "passat10_chatgpt": 0.6172874224055327
+            }
+        },
+        "mutant_2": {
+            "humaneval": {
+                "passat10_chatgpt": 0.27483833039388594
+            },
+            "mbpp": {
+                "passat10_chatgpt": 0.5230445591891374
+            }
+        },
+        "mutant_3": {
+            "humaneval": {
+                "passat10_chatgpt": 0.07516339869281045
+            },
+            "mbpp": {
+                "passat10_chatgpt": 0.4036911060720585
+            }
+        }
+    },
+    "pass@7": {
+        "mutant_1": {
+            "humaneval": {
+                "passat10_chatgpt": 0.4201206140350877
+            },
+            "mbpp": {
+                "passat10_chatgpt": 0.6797025371828522
+            }
+        },
+        "mutant_2": {
+            "humaneval": {
+                "passat10_chatgpt": 0.3058641975308642
+            },
+            "mbpp": {
+                "passat10_chatgpt": 0.5802208835341365
+            }
+        },
+        "mutant_3": {
+            "humaneval": {
+                "passat10_chatgpt": 0.09607843137254901
+            },
+            "mbpp": {
+                "passat10_chatgpt": 0.4533068783068783
+            }
+        }
+    },
+    "pass@10": {
+        "mutant_1": {
+            "humaneval": {
+                "passat10_chatgpt": 0.47368421052631576
+            },
+            "mbpp": {
+                "passat10_chatgpt": 0.7427821522309711
+            }
+        },
+        "mutant_2": {
+            "humaneval": {
+                "passat10_chatgpt": 0.3333333333333333
+            },
+            "mbpp": {
+                "passat10_chatgpt": 0.6385542168674698
+            }
+        },
+        "mutant_3": {
+            "humaneval": {
+                "passat10_chatgpt": 0.11764705882352941
+            },
+            "mbpp": {
+                "passat10_chatgpt": 0.49206349206349204
+            }
+        }
+    }
+}

@@ -1,0 +1,362 @@
+{
+    "pass@1": {
+        "base": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.06024844720496895,
+                "passat10_codegen-2B": 0.1018633540372671,
+                "passat10_codegen2-1B": 0.06459627329192547,
+                "passat10_santacoder": 0.14844720496894412
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.10201511335012595,
+                "passat10_codegen-2B": 0.22115869017632245,
+                "passat10_codegen2-1B": 0.109823677581864,
+                "passat10_santacoder": 0.24005037783375313
+            }
+        },
+        "insert_line": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.049689440993788817,
+                "passat10_codegen-2B": 0.1142857142857143,
+                "passat10_codegen2-1B": 0.06521739130434784,
+                "passat10_santacoder": 0.131055900621118
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.10302267002518893,
+                "passat10_codegen-2B": 0.18916876574307304,
+                "passat10_codegen2-1B": 0.09848866498740555,
+                "passat10_santacoder": 0.18413098236775818
+            }
+        },
+        "comment": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.031055900621118012,
+                "passat10_codegen-2B": 0.0906832298136646,
+                "passat10_codegen2-1B": 0.051552795031055906,
+                "passat10_santacoder": 0.1062111801242236
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.042569269521410574,
+                "passat10_codegen-2B": 0.15314861460957177,
+                "passat10_codegen2-1B": 0.06397984886649874,
+                "passat10_santacoder": 0.2261964735516373
+            }
+        },
+        "output_mutation": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.006832298136645963,
+                "passat10_codegen-2B": 0.0055900621118012426,
+                "passat10_codegen2-1B": 0.006211180124223602,
+                "passat10_santacoder": 0.01801242236024845
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.009644670050761422,
+                "passat10_codegen-2B": 0.013959390862944163,
+                "passat10_codegen2-1B": 0.013451776649746195,
+                "passat10_santacoder": 0.024619289340101522
+            }
+        },
+        "output_v_mutation": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.005590062111801242,
+                "passat10_codegen-2B": 0.007453416149068324,
+                "passat10_codegen2-1B": 0.003105590062111802,
+                "passat10_santacoder": 0.011180124223602487
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.014720812182741117,
+                "passat10_codegen-2B": 0.029949238578680204,
+                "passat10_codegen2-1B": 0.014974619289340102,
+                "passat10_santacoder": 0.03527918781725888
+            }
+        }
+    },
+    "pass@3": {
+        "base": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.10600414078674948,
+                "passat10_codegen-2B": 0.16930641821946169,
+                "passat10_codegen2-1B": 0.1019151138716356,
+                "passat10_santacoder": 0.22091097308488605
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.21095717884130982,
+                "passat10_codegen-2B": 0.3803316540722082,
+                "passat10_codegen2-1B": 0.21473551637279598,
+                "passat10_santacoder": 0.40730478589420654
+            }
+        },
+        "insert_line": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.09353002070393375,
+                "passat10_codegen-2B": 0.19026915113871634,
+                "passat10_codegen2-1B": 0.09648033126293995,
+                "passat10_santacoder": 0.1946169772256729
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.21601595298068849,
+                "passat10_codegen-2B": 0.33643996641477747,
+                "passat10_codegen2-1B": 0.20232997481108314,
+                "passat10_santacoder": 0.3378253568429891
+            }
+        },
+        "comment": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.06899585921325052,
+                "passat10_codegen-2B": 0.1520703933747412,
+                "passat10_codegen2-1B": 0.08623188405797101,
+                "passat10_santacoder": 0.17675983436853004
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.10377833753148616,
+                "passat10_codegen-2B": 0.3053736356003358,
+                "passat10_codegen2-1B": 0.1419185558354324,
+                "passat10_santacoder": 0.39955919395465994
+            }
+        },
+        "output_mutation": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.015269151138716354,
+                "passat10_codegen-2B": 0.01594202898550725,
+                "passat10_codegen2-1B": 0.017028985507246377,
+                "passat10_santacoder": 0.039596273291925464
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.026924703891708972,
+                "passat10_codegen-2B": 0.03553299492385787,
+                "passat10_codegen2-1B": 0.037521150592216584,
+                "passat10_santacoder": 0.058333333333333334
+            }
+        },
+        "output_v_mutation": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.013146997929606628,
+                "passat10_codegen-2B": 0.018374741200828156,
+                "passat10_codegen2-1B": 0.008488612836438923,
+                "passat10_santacoder": 0.024689440993788822
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.03792301184433164,
+                "passat10_codegen-2B": 0.06738578680203045,
+                "passat10_codegen2-1B": 0.03821912013536379,
+                "passat10_santacoder": 0.07813028764805414
+            }
+        }
+    },
+    "pass@5": {
+        "base": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.12683624174307404,
+                "passat10_codegen-2B": 0.20565907522429264,
+                "passat10_codegen2-1B": 0.1188504387262151,
+                "passat10_santacoder": 0.2558414670215912
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.27125064971412577,
+                "passat10_codegen-2B": 0.45226100515773054,
+                "passat10_codegen2-1B": 0.2755787453520451,
+                "passat10_santacoder": 0.4795290072368158
+            }
+        },
+        "insert_line": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.11766735679779157,
+                "passat10_codegen-2B": 0.23094745144434586,
+                "passat10_codegen2-1B": 0.11130829143251504,
+                "passat10_santacoder": 0.2211623779946761
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.28017672224221346,
+                "passat10_codegen-2B": 0.4066510735276478,
+                "passat10_codegen2-1B": 0.2584862660429411,
+                "passat10_santacoder": 0.4134680740474192
+            }
+        },
+        "comment": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.0917134969930001,
+                "passat10_codegen-2B": 0.18640934634723452,
+                "passat10_codegen2-1B": 0.09992112787143842,
+                "passat10_santacoder": 0.21066252587991716
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.14668545839830477,
+                "passat10_codegen-2B": 0.38454080204709934,
+                "passat10_codegen2-1B": 0.18923673583623205,
+                "passat10_santacoder": 0.47844948222781974
+            }
+        },
+        "output_mutation": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.01981662230109435,
+                "passat10_codegen-2B": 0.025189786059351276,
+                "passat10_codegen2-1B": 0.026052449965493444,
+                "passat10_santacoder": 0.05079858030168588
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.04166666666666666,
+                "passat10_codegen-2B": 0.05282612198855854,
+                "passat10_codegen2-1B": 0.0580936266215454,
+                "passat10_santacoder": 0.0815304971396342
+            }
+        },
+        "output_v_mutation": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.018608892832495318,
+                "passat10_codegen-2B": 0.025017253278122844,
+                "passat10_codegen2-1B": 0.01276742581090407,
+                "passat10_santacoder": 0.03221433500936607
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.05548505358150028,
+                "passat10_codegen-2B": 0.09390862944162437,
+                "passat10_codegen2-1B": 0.056260575296108284,
+                "passat10_santacoder": 0.10457457094512931
+            }
+        }
+    },
+    "pass@7": {
+        "base": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.14047619047619045,
+                "passat10_codegen-2B": 0.2302277432712215,
+                "passat10_codegen2-1B": 0.1303312629399586,
+                "passat10_santacoder": 0.27924430641821946
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.3110411418975651,
+                "passat10_codegen-2B": 0.49277917716204866,
+                "passat10_codegen2-1B": 0.3187657430730479,
+                "passat10_santacoder": 0.5199412258606214
+            }
+        },
+        "insert_line": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.13493788819875774,
+                "passat10_codegen-2B": 0.2594202898550725,
+                "passat10_codegen2-1B": 0.1212215320910973,
+                "passat10_santacoder": 0.23757763975155283
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.32306884970612926,
+                "passat10_codegen-2B": 0.45006297229219144,
+                "passat10_codegen2-1B": 0.29498320738874895,
+                "passat10_santacoder": 0.4598656591099916
+            }
+        },
+        "comment": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.10678053830227743,
+                "passat10_codegen-2B": 0.20905797101449275,
+                "passat10_codegen2-1B": 0.1067287784679089,
+                "passat10_santacoder": 0.23043478260869565
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.17980688497061295,
+                "passat10_codegen-2B": 0.435936188077246,
+                "passat10_codegen2-1B": 0.22231318219983207,
+                "passat10_santacoder": 0.5286314021830395
+            }
+        },
+        "output_mutation": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.02251552795031056,
+                "passat10_codegen-2B": 0.03333333333333333,
+                "passat10_codegen2-1B": 0.03369565217391305,
+                "passat10_santacoder": 0.05709109730848861
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.05403976311336717,
+                "passat10_codegen-2B": 0.0675761421319797,
+                "passat10_codegen2-1B": 0.07550761421319797,
+                "passat10_santacoder": 0.09968274111675125
+            }
+        },
+        "output_v_mutation": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.023602484472049687,
+                "passat10_codegen-2B": 0.0286231884057971,
+                "passat10_codegen2-1B": 0.015942028985507246,
+                "passat10_santacoder": 0.03742236024844721
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.06901438240270727,
+                "passat10_codegen-2B": 0.11476311336717429,
+                "passat10_codegen2-1B": 0.07112944162436549,
+                "passat10_santacoder": 0.12358291032148899
+            }
+        }
+    },
+    "pass@10": {
+        "base": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.15527950310559005,
+                "passat10_codegen-2B": 0.2546583850931677,
+                "passat10_codegen2-1B": 0.14285714285714285,
+                "passat10_santacoder": 0.30434782608695654
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.3526448362720403,
+                "passat10_codegen-2B": 0.5264483627204031,
+                "passat10_codegen2-1B": 0.36523929471032746,
+                "passat10_santacoder": 0.5541561712846348
+            }
+        },
+        "insert_line": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.15527950310559005,
+                "passat10_codegen-2B": 0.2919254658385093,
+                "passat10_codegen2-1B": 0.13043478260869565,
+                "passat10_santacoder": 0.2546583850931677
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.36523929471032746,
+                "passat10_codegen-2B": 0.49370277078085645,
+                "passat10_codegen2-1B": 0.33249370277078083,
+                "passat10_santacoder": 0.5037783375314862
+            }
+        },
+        "comment": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.12422360248447205,
+                "passat10_codegen-2B": 0.22981366459627328,
+                "passat10_codegen2-1B": 0.11180124223602485,
+                "passat10_santacoder": 0.2484472049689441
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.21914357682619648,
+                "passat10_codegen-2B": 0.48866498740554154,
+                "passat10_codegen2-1B": 0.25692695214105793,
+                "passat10_santacoder": 0.5818639798488665
+            }
+        },
+        "output_mutation": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.024844720496894408,
+                "passat10_codegen-2B": 0.043478260869565216,
+                "passat10_codegen2-1B": 0.043478260869565216,
+                "passat10_santacoder": 0.062111801242236024
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.06852791878172589,
+                "passat10_codegen-2B": 0.08629441624365482,
+                "passat10_codegen2-1B": 0.09644670050761421,
+                "passat10_santacoder": 0.1218274111675127
+            }
+        },
+        "output_v_mutation": {
+            "humaneval": {
+                "passat10_incoder-1B": 0.031055900621118012,
+                "passat10_codegen-2B": 0.031055900621118012,
+                "passat10_codegen2-1B": 0.018633540372670808,
+                "passat10_santacoder": 0.043478260869565216
+            },
+            "mbpp": {
+                "passat10_incoder-1B": 0.08375634517766498,
+                "passat10_codegen-2B": 0.13959390862944163,
+                "passat10_codegen2-1B": 0.08883248730964467,
+                "passat10_santacoder": 0.1446700507614213
+            }
+        }
+    }
+}
