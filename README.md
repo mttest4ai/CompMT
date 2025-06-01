@@ -13,7 +13,7 @@ python mbpp_div.py
 ```
 
 ## Get Mutated Problems and Generate Code
-The next steps to constructe the pool of programming problems, identify suitable inserted problems and get mutated prompts. Enter folder `mutant` and run the following command:
+The next steps to construct the pool of programming problems, identify suitable inserted problems and get mutated prompts. Enter folder `mutant` and run the following command:
 ```bash
 bash init.sh
 ```
@@ -84,7 +84,7 @@ python statistic.py
 
 **RQ3: How does the overlap between our method and the baselines, as well as among our method’s three MRs, reflect differences in the testing perspectives of these methods?**
 
-To obtain the result of two types of ovarlap, you can run the following:
+To obtain the result of two types of overlap, you can run the following:
 ```bash
 python get_overlap.py
 python pic_draw_baseoverlap.py
